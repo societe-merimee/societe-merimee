@@ -1,7 +1,2 @@
+@import-glob "./style/settings/*.css";
 @import-glob "../style-guide/patterns/**/*.css";
-
-@design-tokens url('./style/tokens.json') format('style-dictionary3');
-
-body{
-  color:design-token('color.background.primary');
-}
