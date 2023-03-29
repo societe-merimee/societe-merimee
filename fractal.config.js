@@ -7,7 +7,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
 fractal.set('project.title', 'Société Mérimée');
 
 /* Tell Fractal where the components will live */
-fractal.components.set('path', __dirname + '/style-guide/components');
+fractal.components.set('path', __dirname + '/style-guide/patterns');
 
 /* Tell Fractal where the documentation pages will live */
 fractal.docs.set('path', __dirname + '/style-guide/docs');
