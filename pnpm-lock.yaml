@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@csstools/postcss-design-tokens': ^2.0.3
   '@frctl/fractal': ^1.5.15
+  '@frctl/nunjucks': ^2.0.15
   postcss-import: ^15.1.0
   postcss-import-ext-glob: ^2.1.1
   postcss-preset-env: ^8.2.0
@@ -15,6 +16,7 @@ dependencies:
 devDependencies:
   '@csstools/postcss-design-tokens': 2.0.3
   '@frctl/fractal': 1.5.15
+  '@frctl/nunjucks': 2.0.15_@frctl+fractal@1.5.15
   postcss-import: 15.1.0
   postcss-import-ext-glob: 2.1.1
   typescript: 4.9.5
@@ -607,6 +609,20 @@ packages:
       '@frctl/fractal': 1.5.15
       js-beautify: 1.14.7
       lodash: 4.17.21
+    dev: true
+
+  /@frctl/nunjucks/2.0.15_@frctl+fractal@1.5.15:
+    resolution: {integrity: sha512-h7HMAJu645fUmxftTi3d5+dkEdrwk90D/nPVlcd7Pfh89e5ALlzzaGLTPN0gpN7tF6FlOABDt7RJRX+N19xVWg==}
+    peerDependencies:
+      '@frctl/fractal': '>= 1.1.0-alpha.0 < 2'
+    dependencies:
+      '@frctl/core': 0.3.5
+      '@frctl/fractal': 1.5.15
+      bluebird: 3.7.2
+      lodash: 4.17.21
+      nunjucks: 3.2.3
+    transitivePeerDependencies:
+      - chokidar
     dev: true
 
   /@frctl/web/0.1.12:
@@ -3067,6 +3083,21 @@ packages:
   /number-is-nan/1.0.1:
     resolution: {integrity: sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /nunjucks/3.2.3:
+    resolution: {integrity: sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==}
+    engines: {node: '>= 6.9.0'}
+    hasBin: true
+    peerDependencies:
+      chokidar: ^3.3.0
+    peerDependenciesMeta:
+      chokidar:
+        optional: true
+    dependencies:
+      a-sync-waterfall: 1.0.1
+      asap: 2.0.6
+      commander: 5.1.0
     dev: true
 
   /nunjucks/3.2.3_chokidar@3.5.3:

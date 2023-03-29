@@ -8,6 +8,8 @@ fractal.set('project.title', 'Société Mérimée');
 
 /* Tell Fractal where the components will live */
 fractal.components.set('path', __dirname + '/style-guide/patterns');
+fractal.components.engine('@frctl/nunjucks');
+fractal.components.set('ext', '.njk');
 
 /* Tell Fractal where the documentation pages will live */
 fractal.docs.set('path', __dirname + '/style-guide/docs');
