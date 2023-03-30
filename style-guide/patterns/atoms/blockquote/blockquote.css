@@ -1,0 +1,7 @@
+blockquote {
+	background-color: var(--clr-neutral-surface-subtle);
+	color: var(--clr-neutral-text-shade);
+	padding: var(--space--2);
+	padding-inline-start: var(--space-0);
+	border-inline-start: 6px solid var(--clr-neutral-surface-solid);
+}
