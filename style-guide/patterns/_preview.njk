@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Preview Layout</title>
-</head>
-<body>
-
-{{ yield | safe }}
-
-<script type="module" src="http://localhost:5173/@vite/client"></script>
-<script type="module" src="http://localhost:5173/src/main.ts"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Preview Layout</title>
+    </head>
+    <style>
+        body {
+            padding: 0.5em;
+        }
+        .item {
+            background: hsl(0 0% 96%);
+            border: 1px solid hsl(0 0% 80%);
+            text-align: center;
+            padding: 0.25em;
+        }
+    </style>
+    <body>
+        {{ yield | safe }}
+        <script type="module" src="http://localhost:5173/@vite/client"></script>
+        <script type="module" src="http://localhost:5173/src/main.ts"></script>
+    </body>
 </html>

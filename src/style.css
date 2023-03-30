@@ -1,2 +1,3 @@
 @import-glob "./style/settings/*.css";
 @import-glob "../style-guide/patterns/**/*.css";
+@import-glob "./style/utilities/*.css";

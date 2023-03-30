@@ -1,0 +1,30 @@
+:where(.flow, [class*='flow-']) > * + * {
+	margin-block-start: var(--flow-space, 1em);
+}
+.flow-space--3 {
+	--flow-space: var(--space--3);
+}
+.flow-space--2 {
+	--flow-space: var(--space--2);
+}
+.flow-space--1 {
+	--flow-space: var(--space--1);
+}
+.flow-space-0 {
+	--flow-space: var(--space-0);
+}
+.flow-space-1 {
+	--flow-space: var(--space-1);
+}
+.flow-space-2 {
+	--flow-space: var(--space-2);
+}
+.flow-space-3 {
+	--flow-space: var(--space-3);
+}
+.flow-space-4 {
+	--flow-space: var(--space-4);
+}
+.flow-space-5 {
+	--flow-space: var(--space-5);
+}
