@@ -19,5 +19,9 @@
 		"prettier": "^2.8.7",
 		"typescript": "^4.9.3",
 		"vite": "^4.2.0"
+	},
+	"dependencies": {
+		"@fontsource/dm-sans": "^4.5.9",
+		"@fontsource/dm-serif-display": "^4.5.10"
 	}
 }
