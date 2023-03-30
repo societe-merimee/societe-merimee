@@ -1,0 +1,17 @@
+body {
+	background-color: var(--clr-neutral-surface-app);
+	color: var(--clr-neutral-text);
+	font-family: var(--font-prose);
+	font-size: var(--font-size-0);
+}
+
+p {
+	max-inline-size: 65ch;
+}
+
+:focus-visible {
+	outline-offset: 5px;
+	outline-width: 1px;
+	transition: outline-offset 0.15s;
+	outline-color: var(--clr-accent-border-ui-hover);
+}
