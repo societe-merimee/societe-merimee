@@ -1,83 +1,76 @@
 @design-tokens url('./tokens.json') format('style-dictionary3');
 
-:root{
-    --clr-accent-surface-app:hsl(design-token('color.accent.1'));
-    --clr-accent-surface-subtle:hsl(design-token('color.accent.2'));
-    --clr-accent-surface-ui:hsl(design-token('color.accent.3'));
-    --clr-accent-surface-ui-hover:hsl(design-token('color.accent.4'));
-    --clr-accent-surface-ui-active:hsl(design-token('color.accent.5'));
-    --clr-accent-border-subtle:hsl(design-token('color.accent.6'));
-    --clr-accent-border-ui:hsl(design-token('color.accent.7'));
-    --clr-accent-border-ui-hover:hsl(design-token('color.accent.8'));
-    --clr-accent-surface-solid:hsl(design-token('color.accent.9'));
-    --clr-accent-surface-solid-hover:hsl(design-token('color.accent.10'));
-    --clr-accent-text-low:hsl(design-token('color.accent.11'));
-    --clr-accent-text:hsl(design-token('color.accent.12'));
+:root {
+  --clr-accent-surface-app: hsl(design-token("color.accent.1"));
+  --clr-accent-surface-subtle: hsl(design-token("color.accent.2"));
+  --clr-accent-surface-ui: hsl(design-token("color.accent.3"));
+  --clr-accent-surface-ui-hover: hsl(design-token("color.accent.4"));
+  --clr-accent-surface-ui-active: hsl(design-token("color.accent.5"));
+  --clr-accent-border-subtle: hsl(design-token("color.accent.6"));
+  --clr-accent-border-ui: hsl(design-token("color.accent.7"));
+  --clr-accent-border-ui-hover: hsl(design-token("color.accent.8"));
+  --clr-accent-surface-solid: hsl(design-token("color.accent.9"));
+  --clr-accent-surface-solid-hover: hsl(design-token("color.accent.10"));
+  --clr-accent-text-low: hsl(design-token("color.accent.11"));
+  --clr-accent-text: hsl(design-token("color.accent.12"));
 
-    --raw-accent-surface-app:design-token('color.accent.1');
-    --raw-accent-surface-subtle:design-token('color.accent.2');
-    --raw-accent-surface-ui:design-token('color.accent.3');
-    --raw-accent-surface-ui-hover:design-token('color.accent.4');
-    --raw-accent-surface-ui-active:design-token('color.accent.5');
-    --raw-accent-border-subtle:design-token('color.accent.6');
-    --raw-accent-border-ui:design-token('color.accent.7');
-    --raw-accent-border-ui-hover:design-token('color.accent.8');
-    --raw-accent-surface-solid:design-token('color.accent.9');
-    --raw-accent-surface-solid-hover:design-token('color.accent.10');
-    --raw-accent-text-low:design-token('color.accent.11');
-    --raw-accent-text:design-token('color.accent.12');
+  --raw-accent-surface-app: design-token("color.accent.1");
+  --raw-accent-surface-subtle: design-token("color.accent.2");
+  --raw-accent-surface-ui: design-token("color.accent.3");
+  --raw-accent-surface-ui-hover: design-token("color.accent.4");
+  --raw-accent-surface-ui-active: design-token("color.accent.5");
+  --raw-accent-border-subtle: design-token("color.accent.6");
+  --raw-accent-border-ui: design-token("color.accent.7");
+  --raw-accent-border-ui-hover: design-token("color.accent.8");
+  --raw-accent-surface-solid: design-token("color.accent.9");
+  --raw-accent-surface-solid-hover: design-token("color.accent.10");
+  --raw-accent-text-low: design-token("color.accent.11");
+  --raw-accent-text: design-token("color.accent.12");
 
-    --clr-neutral-surface-app:hsl(design-token('color.neutral.1'));
-    --clr-neutral-surface-subtle:hsl(design-token('color.neutral.2'));
-    --clr-neutral-surface-ui:hsl(design-token('color.neutral.3'));
-    --clr-neutral-surface-ui-hover:hsl(design-token('color.neutral.4'));
-    --clr-neutral-surface-ui-active:hsl(design-token('color.neutral.5'));
-    --clr-neutral-border-subtle:hsl(design-token('color.neutral.6'));
-    --clr-neutral-border-ui:hsl(design-token('color.neutral.7'));
-    --clr-neutral-border-ui-hover:hsl(design-token('color.neutral.8'));
-    --clr-neutral-surface-solid:hsl(design-token('color.neutral.9'));
-    --clr-neutral-surface-solid-hover:hsl(design-token('color.neutral.10'));
-    --clr-neutral-text-low:hsl(design-token('color.neutral.11'));
-    --clr-neutral-text:hsl(design-token('color.neutral.12'));
+  --clr-neutral-surface-app: hsl(design-token("color.neutral.1"));
+  --clr-neutral-surface-subtle: hsl(design-token("color.neutral.2"));
+  --clr-neutral-surface-ui: hsl(design-token("color.neutral.3"));
+  --clr-neutral-surface-ui-hover: hsl(design-token("color.neutral.4"));
+  --clr-neutral-surface-ui-active: hsl(design-token("color.neutral.5"));
+  --clr-neutral-border-subtle: hsl(design-token("color.neutral.6"));
+  --clr-neutral-border-ui: hsl(design-token("color.neutral.7"));
+  --clr-neutral-border-ui-hover: hsl(design-token("color.neutral.8"));
+  --clr-neutral-surface-solid: hsl(design-token("color.neutral.9"));
+  --clr-neutral-surface-solid-hover: hsl(design-token("color.neutral.10"));
+  --clr-neutral-text-low: hsl(design-token("color.neutral.11"));
+  --clr-neutral-text: hsl(design-token("color.neutral.12"));
 
-    --raw-neutral-surface-app:design-token('color.neutral.1');
-    --raw-neutral-surface-subtle:design-token('color.neutral.2');
-    --raw-neutral-surface-ui:design-token('color.neutral.3');
-    --raw-neutral-surface-ui-hover:design-token('color.neutral.4');
-    --raw-neutral-surface-ui-active:design-token('color.neutral.5');
-    --raw-neutral-border-subtle:design-token('color.neutral.6');
-    --raw-neutral-border-ui:design-token('color.neutral.7');
-    --raw-neutral-border-ui-hover:design-token('color.neutral.8');
-    --raw-neutral-surface-solid:design-token('color.neutral.9');
-    --raw-neutral-surface-solid-hover:design-token('color.neutral.10');
-    --raw-neutral-text-low:design-token('color.neutral.11');
-    --raw-neutral-text:design-token('color.neutral.12');
+  --raw-neutral-surface-app: design-token("color.neutral.1");
+  --raw-neutral-surface-subtle: design-token("color.neutral.2");
+  --raw-neutral-surface-ui: design-token("color.neutral.3");
+  --raw-neutral-surface-ui-hover: design-token("color.neutral.4");
+  --raw-neutral-surface-ui-active: design-token("color.neutral.5");
+  --raw-neutral-border-subtle: design-token("color.neutral.6");
+  --raw-neutral-border-ui: design-token("color.neutral.7");
+  --raw-neutral-border-ui-hover: design-token("color.neutral.8");
+  --raw-neutral-surface-solid: design-token("color.neutral.9");
+  --raw-neutral-surface-solid-hover: design-token("color.neutral.10");
+  --raw-neutral-text-low: design-token("color.neutral.11");
+  --raw-neutral-text: design-token("color.neutral.12");
 
-    /* https://utopia.fyi/space/calculator?c=320,16,1.25,1240,18,1.333,5,2,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l&g=s,l,xl,12 */
+  /* https://utopia.fyi/space/calculator?c=320,16,1.25,1240,18,1.333,5,2,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l&g=s,l,xl,12 */
 
-    --font-size--2: clamp(0.63rem, calc(0.64rem + -0.01vw), 0.64rem);
-    --font-size--1: clamp(0.80rem, calc(0.78rem + 0.08vw), 0.84rem);
-    --font-size-0: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
-    --font-size-1: clamp(1.25rem, calc(1.16rem + 0.43vw), 1.50rem);
-    --font-size-2: clamp(1.56rem, calc(1.41rem + 0.76vw), 2.00rem);
-    --font-size-3: clamp(1.95rem, calc(1.71rem + 1.24vw), 2.66rem);
-    --font-size-4: clamp(2.44rem, calc(2.05rem + 1.93vw), 3.55rem);
-    --font-size-5: clamp(3.05rem, calc(2.47rem + 2.93vw), 4.74rem);
+  --font-size--2: design-token("size.font-size.-2");
+  --font-size--1: design-token("size.font-size.-1");
+  --font-size-0: design-token("size.font-size.0");
+  --font-size-1: design-token("size.font-size.1");
+  --font-size-2: design-token("size.font-size.2");
+  --font-size-3: design-token("size.font-size.3");
+  --font-size-4: design-token("size.font-size.4");
+  --font-size-5: design-token("size.font-size.5");
 
-    --space--3: clamp(0.25rem, calc(0.23rem + 0.11vw), 0.31rem);
-    --space--2: clamp(0.50rem, calc(0.48rem + 0.11vw), 0.56rem);
-    --space--1: clamp(0.75rem, calc(0.71rem + 0.22vw), 0.88rem);
-    --space-0: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
-    --space-1: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    --space-2: clamp(2.00rem, calc(1.91rem + 0.43vw), 2.25rem);
-    --space-3: clamp(3.00rem, calc(2.87rem + 0.65vw), 3.38rem);
-    --space-4: clamp(4.00rem, calc(3.83rem + 0.87vw), 4.50rem);
-    --space-5: clamp(6.00rem, calc(5.74rem + 1.30vw), 6.75rem);
-  
-
-}
-
-body{
-    background:var(--clr-neutral-text);
-    color:var(--clr-neutral-surface-app);
+  --space--3: design-token("size.space.-3");
+  --space--2: design-token("size.space.-2");
+  --space--1: design-token("size.space.-1");
+  --space-0: design-token("size.space.0");
+  --space-1: design-token("size.space.1");
+  --space-2: design-token("size.space.2");
+  --space-3: design-token("size.space.3");
+  --space-4: design-token("size.space.4");
+  --space-5: design-token("size.space.5");
 }
