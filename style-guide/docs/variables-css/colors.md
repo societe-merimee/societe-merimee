@@ -1,5 +1,5 @@
 ---
-title: Couleurs
+label: Couleurs
 ---
 
 # Couleurs
