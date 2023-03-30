@@ -1,23 +1,25 @@
 {
-  "name": "merimee",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "style-guide": "fractal start --sync",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@csstools/postcss-design-tokens": "^2.0.3",
-    "@frctl/fractal": "^1.5.15",
-    "@frctl/nunjucks": "^2.0.15",
-    "postcss-import": "^15.1.0",
-    "postcss-import-ext-glob": "^2.1.1",
-    "typescript": "^4.9.3",
-    "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "postcss-preset-env": "^8.2.0"
-  }
+	"name": "merimee",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"style-guide": "fractal start --sync",
+		"preview": "vite preview",
+		"format": "prettier . --write"
+	},
+	"devDependencies": {
+		"@csstools/postcss-design-tokens": "^2.0.3",
+		"@frctl/fractal": "^1.5.15",
+		"@frctl/nunjucks": "^2.0.15",
+		"postcss-import": "^15.1.0",
+		"postcss-import-ext-glob": "^2.1.1",
+		"prettier": "^2.8.7",
+		"typescript": "^4.9.3",
+		"vite": "^4.2.0"
+	},
+	"dependencies": {
+		"postcss-preset-env": "^8.2.0"
+	}
 }
