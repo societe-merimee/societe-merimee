@@ -49,6 +49,8 @@ fractal.docs.set('path', __dirname + '/style-guide/docs')
 // create a new instance with custom config options
 const theme = mandelbrot({
 	skin: 'black',
+	panels: ['html', 'resources', 'notes'],
+	lang: 'fr',
 	// any other theme configuration values here
 })
 
