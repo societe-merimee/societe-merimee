@@ -16,8 +16,10 @@ section + section {
 }
 
 :focus-visible {
-	outline-offset: 5px;
-	outline-width: 1px;
+	outline-offset: 3px;
 	transition: outline-offset 0.15s;
-	outline-color: var(--clr-accent-border-ui-hover);
+	outline: 2px solid var(--clr-accent-border-ui-hover);
+
+	position: relative;
+	z-index: 1;
 }

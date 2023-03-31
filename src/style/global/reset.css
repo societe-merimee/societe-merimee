@@ -51,8 +51,7 @@ input,
 label[for],
 select,
 summary,
-textarea,
-[tabindex]:not([tabindex*='-']) {
+textarea {
 	cursor: pointer;
 	touch-action: manipulation;
 	-webkit-tap-highlight-color: transparent;
@@ -68,7 +67,7 @@ h6 {
 	overflow-wrap: break-word;
 }
 
-/* @media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
 	html:focus-within {
 		scroll-behavior: auto;
 	}
@@ -81,4 +80,4 @@ h6 {
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}
-} */
+}
