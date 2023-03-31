@@ -10,7 +10,7 @@ const fractal = (module.exports = require('@frctl/fractal').create())
 fractal.set('project.title', 'Société Mérimée')
 
 /* Tell Fractal where the components will live */
-fractal.components.set('path', __dirname + '/style-guide/patterns')
+fractal.components.set('path', __dirname + '/style-guide/components')
 
 const nunjucks = require('@frctl/nunjucks')({
 	env: {

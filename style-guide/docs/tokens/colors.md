@@ -5,7 +5,7 @@ label: Couleurs
 # Couleurs
 
 La palette est composée de deux teintes (accent et neutral), pour chacune des teintes il existe 12 variations qui correspondent chacune à un cas d'utilisation.
-Les variables sont nommées comme suit : `--clr-TEINTE-NOM`. Ainsi, `var(--clr-accent-surface-solid)` correspond à `hsl({{tokens.color.accent['9'].value}})`. Il est également possible d'accéder à la valeur brute d'une couleur en remplaçant `clr` par `raw` par exemple : `var(--raw-accent-surface-solid)` correspond à `{{tokens.color.accent['9'].value}}`. Les couleurs proviennent du système de couleur open-source designé par radix ui. [source](https://www.radix-ui.com/colors)
+Les variables sont nommées comme suit : `--clr-TEINTE-NOM`. Ainsi, `var(--clr-accent-surface-solid)` correspond à `hsl({{tokens.color.accent['9'].value}})`. Il est également possible d'accéder à la valeur brute d'une couleur en remplaçant `clr` par `raw` par exemple : `var(--raw-accent-surface-solid)` correspond à `{{tokens.color.accent['9'].value}}`. Les couleurs proviennent du système de couleur open-source designé par [radix ui](https://www.radix-ui.com/colors).
 
 | Accent                                                                                                  | Neutral                                                                                                  | nom                 |
 | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------- |
