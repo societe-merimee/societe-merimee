@@ -1,0 +1,52 @@
+summary {
+	font-family: var(--font-display);
+	font-size: var(--font-size-2);
+	font-style: italic;
+	color: var(--clr-neutral-text-shade);
+	&:where(:hover, :focus-visible) {
+		color: var(--clr-neutral-text);
+	}
+}
+
+@supports selector(summary::-webkit-details-marker) or selector(summary::marker) {
+	summary {
+		display: flex;
+		align-items: center;
+		gap: var(--space--2);
+		&::marker,
+		&::-webkit-details-marker {
+			display: none;
+			content: '';
+		}
+		&::before {
+			content: '';
+			height: 0.75em;
+			aspect-ratio: 1;
+			background-color: currentColor;
+			--stroke-width: 4px;
+			--x-1: calc(50% - var(--stroke-width) * 0.5);
+			--x-2: calc(50% + var(--stroke-width) * 0.5);
+			--y-1: calc(50% - var(--stroke-width) * 0.5);
+			--y-2: calc(50% + var(--stroke-width) * 0.5);
+			clip-path: polygon(
+				0 var(--y-1),
+				var(--x-1) var(--y-1),
+				var(--x-1) 0%,
+				var(--x-2) 0%,
+				var(--x-2) var(--y-1),
+				100% var(--y-1),
+				100% var(--y-2),
+				var(--x-2) var(--y-2),
+				var(--x-2) 100%,
+				var(--x-1) 100%,
+				var(--x-1) var(--y-2),
+				0 var(--y-2)
+			);
+			transition: transform 0.35s cubic-bezier(0.5, 1.8, 0.7, 1.5);
+		}
+	}
+
+	details[open] summary::before {
+		transform: rotate(45deg);
+	}
+}

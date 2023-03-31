@@ -1,0 +1,12 @@
+details {
+	background-color: var(--clr-neutral-surface-subtle);
+	padding-inline: var(--space-0);
+	padding-block: var(--space--2);
+
+	overflow: hidden;
+	transition: height 0.3s ease-in;
+}
+
+details > * {
+	margin-block: 0 !important;
+}
