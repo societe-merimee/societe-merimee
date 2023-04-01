@@ -20,7 +20,7 @@ const nunjucks = require('@frctl/nunjucks')({
 		// filter-name: function filterFunc(){}
 	},
 	globals: {
-		tokens: require('./src/style/settings/tokens.json'),
+		tokens: require('./assets/style/settings/tokens.json'),
 		box: (styles) => {
 			let css = ''
 			for (const prop in styles) {

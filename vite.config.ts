@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig({
 	resolve: {
 		alias: {
-			'@helpers': path.resolve(__dirname, './src/ts/helpers'),
+			'@helpers': path.resolve(__dirname, './assets/ts/helpers'),
 			'@components': path.resolve(__dirname, './style-guide/components'),
 		},
 	},

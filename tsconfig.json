@@ -17,9 +17,9 @@
 		"noUncheckedIndexedAccess": true,
 		"baseUrl": ".",
 		"paths":{
-			"@helpers/*":["src/ts/helpers/*"],
+			"@helpers/*":["assets/ts/helpers/*"],
 			"@components/*":["style-guide/components/*"]
 		}
 	},
-	"include": ["src","style-guide/components"]
+	"include": ["assets","style-guide/components"]
 }
