@@ -10,31 +10,36 @@ nav-tabs {
 }
 
 nav-tabs [role='tablist'] {
+	max-inline-size: 100%;
+	overflow: auto;
 	display: inline-grid;
 	width: fit-content;
 	grid-auto-flow: column;
 	grid-auto-columns: 1fr;
-	& button {
-		font-size: var(--font-size-1);
-		padding-block: 0;
-		padding-inline: var(--space-0);
-		white-space: nowrap;
-		background-color: transparent;
-		border: 0;
-		color: var(--clr-neutral-text-shade);
-		background-color: var(--clr-neutral-surface-ui);
-		border: 1px solid transparent;
-		&:where(:hover, :focus-within) {
-			color: var(--clr-neutral-text);
-			background-color: var(--clr-neutral-surface-ui-hover);
-			border-bottom: 1px solid var(--clr-neutral-border-ui-hover);
-		}
-		&[aria-selected='true'] {
-			background-color: var(--clr-accent-surface-ui-active);
-			color: var(--clr-accent-text);
-			outline: 1px solid var(--clr-accent-border-ui-hover);
-			outline-offset: 0;
-			z-index: 1;
-		}
+	scroll-snap-type: x mandatory;
+}
+
+nav-tabs [role='tab'] {
+	scroll-snap-align: center;
+	font-size: var(--font-size-1);
+	padding-block: 0;
+	padding-inline: var(--space-0);
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+	color: var(--clr-neutral-text-shade);
+	background-color: var(--clr-neutral-surface-ui);
+	border: 1px solid transparent;
+	&:where(:hover, :focus-within) {
+		color: var(--clr-neutral-text);
+		background-color: var(--clr-neutral-surface-ui-hover);
+		border-bottom: 1px solid var(--clr-neutral-border-ui-hover);
+	}
+	&[aria-selected='true'] {
+		background-color: var(--clr-accent-surface-ui-active);
+		color: var(--clr-accent-text);
+		outline: 1px solid var(--clr-accent-border-ui-hover);
+		outline-offset: 0;
+		z-index: 1;
 	}
 }
