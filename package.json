@@ -3,9 +3,12 @@
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
-		"dev": "vite",
+		"pnpm": "pnpm",
+		"dev:site": "vite",
+		"dev:style-guide": "fractal start --sync",
+		"local-cms": "pnpx netlify-cms-proxy-server",
+		"dev": "concurrently \"pnpm dev:site\" \"pnpm dev:style-guide\"",
 		"build": "tsc && vite build",
-		"style-guide": "fractal start --sync",
 		"preview": "vite preview",
 		"format": "prettier . --write"
 	},
@@ -14,6 +17,7 @@
 		"@frctl/fractal": "^1.5.15",
 		"@frctl/nunjucks": "^2.0.15",
 		"@types/uuid": "^9.0.1",
+		"concurrently": "^8.0.1",
 		"postcss-import": "^15.1.0",
 		"postcss-import-ext-glob": "^2.1.1",
 		"postcss-preset-env": "^8.2.0",
