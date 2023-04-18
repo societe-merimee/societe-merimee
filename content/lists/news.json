@@ -1,0 +1,13 @@
+{
+  "news": [
+    {
+      "date": "2023-04-17T20:45:36.707Z",
+      "title": "Un super séminaire samedi",
+      "description": "Samedi aura lieu un super séminaire ! \nAu programme : \n\n* Xavier BOURDENET (Rennes II) « Histoire et fiction dans “La Fausse Elisabeth”»\n* Victoire FEUILLEBOIS (Université de Strasbourg) « Mérimée, Pouchkine et le théâtre de l’histoire »",
+      "thumbnail": {
+        "image": "/images/uploads/imgplaceholder.png",
+        "alt": "Un placeholder d'image"
+      }
+    }
+  ]
+}
