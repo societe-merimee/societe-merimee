@@ -10,6 +10,7 @@ sortable-table:defined {
 			width: 100%;
 			border: 0;
 			justify-content: space-between;
+			padding-inline: var(--space-0);
 		}
 		& svg {
 			display: none;
