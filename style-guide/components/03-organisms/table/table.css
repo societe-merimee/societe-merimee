@@ -1,0 +1,133 @@
+sortable-table:defined {
+	& [data-sort] {
+		padding: 0;
+
+		& button {
+			inset: 0;
+			width: 100%;
+			border: 0;
+			justify-content: space-between;
+		}
+		& svg {
+			display: none;
+		}
+		& [aria-sort='ascending'] {
+			& .up {
+				display: none;
+			}
+			& .down {
+				display: block;
+			}
+		}
+
+		& [aria-sort='descending'] {
+			& .up {
+				display: block;
+			}
+			& .down {
+				display: none;
+			}
+		}
+		& button:not(aria-sort):where(:hover, :focus) {
+			& .down {
+				display: block;
+			}
+		}
+	}
+}
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+thead {
+	position: sticky;
+	top: 0;
+	background-color: var(--clr-neutral-surface-app);
+	outline: 1px solid var(--clr-neutral-border-subtle);
+	z-index: 10;
+}
+tbody {
+	outline: 1px solid var(--clr-neutral-border-subtle);
+}
+
+tr {
+	&:not(:last-child) {
+		border-block-end: 1px solid var(--clr-neutral-border-subtle);
+	}
+	&:nth-child(even) {
+		background-color: var(--clr-neutral-surface-subtle);
+	}
+}
+
+th,
+td {
+	padding-inline: var(--space-0);
+}
+
+th {
+	padding-block: var(--space--1);
+	text-align: left;
+	font-size: var(--font-size-1);
+	color: var(--clr-neutral-text-shade);
+}
+
+td {
+	padding-block: var(--space--2);
+	&.title span:last-child {
+		font-style: italic;
+	}
+}
+
+@media print, (max-width: 60rem) {
+	thead {
+		display: none;
+	}
+	tbody {
+		outline: 0;
+	}
+	tr {
+		display: block;
+		padding-block: var(--space--2);
+		max-inline-size: 66ch;
+		margin-inline: auto;
+		background-color: transparent !important;
+		border: 0 !important;
+	}
+
+	td {
+		padding: 0;
+		display: inline;
+		&:first-child {
+			padding-inline-start: var(--space--2);
+		}
+		& span {
+			display: inline;
+		}
+		&:not(:last-child) span:last-child::after {
+			content: ', ';
+		}
+	}
+}
+@media print {
+	body {
+		color: white;
+	}
+	table {
+		background-color: white;
+		color: black;
+		text-align: justify;
+	}
+	tr {
+		text-align: justify;
+		line-height: 0.8;
+	}
+	td {
+		text-align: justify;
+		font-size: 12px;
+		padding: 0 !important;
+		& span {
+			line-height: 0.5;
+		}
+	}
+}
