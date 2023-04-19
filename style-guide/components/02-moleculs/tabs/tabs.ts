@@ -63,6 +63,8 @@ export const defineTabsCustomElement = () =>
 						'aria-controls': panel.id,
 						id,
 						tabindex: '-1',
+						class: 'tab-btn',
+						'data-color': 'neutral',
 					})
 					tab.textContent =
 						panel.getAttribute('data-label') ?? `tab ${index}`
