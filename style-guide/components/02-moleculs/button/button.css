@@ -1,0 +1,44 @@
+.btn {
+	background-color: var(--clr-accent-surface-ui);
+	color: var(--clr-accent-surface-solid);
+	border-color: var(--clr-accent-border-ui);
+	border-width: 1px;
+	border-style: solid;
+	padding-inline: var(--space--2);
+	padding-block: var(--space--3);
+	display: flex;
+	align-items: center;
+	gap: var(--space--3);
+	transition: transform 0.2s ease-in;
+	&:where(:hover, :focus-visible) {
+		background-color: var(--clr-accent-surface-ui-hover);
+		color: var(--clr-accent-surface-solid-hover);
+		border-color: var(--clr-accent-border-ui-hover);
+	}
+	&:active {
+		background-color: var(--clr-accent-surface-ui-active);
+		color: var(--clr-accent-surface-solid-hover);
+		border-color: var(--clr-accent-border-ui-hover);
+		transform: scale(1.05);
+	}
+}
+
+.btn[data-color='neutral'] {
+	background-color: var(--clr-neutral-surface-ui);
+	color: var(--clr-neutral-surface-solid);
+	border-color: var(--clr-neutral-border-ui);
+	&:where(:hover, :focus-visible) {
+		background-color: var(--clr-neutral-surface-ui-hover);
+		color: var(--clr-neutral-surface-solid-hover);
+		border: 1px solid var(--clr-neutral-border-ui-hover);
+	}
+	&:active {
+		background-color: var(--clr-neutral-surface-ui-active);
+		color: var(--clr-neutral-surface-solid-hover);
+		border-color: var(--clr-neutral-border-ui-hover);
+	}
+}
+
+.btn svg {
+	font-size: 1.25em;
+}
