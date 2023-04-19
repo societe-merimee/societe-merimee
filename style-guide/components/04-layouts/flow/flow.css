@@ -1,4 +1,4 @@
-:where(.flow, [class*='flow-']) > * + * {
+.flow > * + * {
 	margin-block-start: var(--flow-space, 1em);
 }
 .flow-space--3 {
