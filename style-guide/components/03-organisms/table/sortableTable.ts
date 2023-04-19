@@ -1,3 +1,4 @@
+import { v4 as uuid } from 'uuid'
 import { setAttributes } from '@helpers/dom'
 
 type SortType = 'ascending' | 'descending'
@@ -7,6 +8,7 @@ export const defineSortableTableCustomElement = () =>
 		'sortable-table',
 
 		class Tabs extends HTMLElement {
+			private _tbodyElement: HTMLTableSectionElement | null = null
 			connectedCallback() {
 				this._init()
 			}
@@ -18,6 +20,55 @@ export const defineSortableTableCustomElement = () =>
 			disconnectedCallback() {}
 
 			private _init() {
+				this._tbodyElement = this.querySelector('tbody')
+				this._addSearchForm()
+				this._addSortBtns()
+			}
+
+			private _addSearchForm() {
+				if (!this._tbodyElement) return
+				const searchForm = document.createElement('form')
+				setAttributes(searchForm, {
+					role: 'search',
+					'aria-label': 'On table',
+					class: 'searchForm',
+				})
+				const id = uuid()
+				searchForm.innerHTML = `
+					<label for="${id}">Rechercher :</label>
+					<input type="search" id="${id}" name="search">
+					<button class="btn" data-color="neutral" title="rechercher">
+						<svg width="1em" height="1em" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<use href="#glass-icon"/>
+						</svg>
+					</button>`
+				const table = this.querySelector('table')
+				searchForm.addEventListener(
+					'submit',
+					this._handleSearch.bind(this)
+				)
+				this.insertBefore(searchForm, table)
+			}
+
+			private _handleSearch(e: SubmitEvent) {
+				e.preventDefault()
+				if (!e.target || !this._tbodyElement) return
+				const form = e.target as HTMLFormElement
+				const data = new FormData(form)
+				const searchValue = data.get('search')
+				const rows = Array.from(this._tbodyElement.rows)
+				rows.forEach((row) => {
+					const show =
+						searchValue === null ||
+						row.textContent
+							?.toLowerCase()
+							.includes(searchValue.toString().toLowerCase())
+					if (show) row.removeAttribute('hidden')
+					else row.setAttribute('hidden', '')
+				})
+			}
+
+			private _addSortBtns() {
 				const btnWrappers = this.querySelectorAll('[data-sort]')
 				btnWrappers.forEach((wrapper, index) => {
 					wrapper.innerHTML = ''
@@ -37,6 +88,7 @@ export const defineSortableTableCustomElement = () =>
 					wrapper.appendChild(btn)
 				})
 			}
+
 			private _handleClick(button: HTMLButtonElement, colIndex: number) {
 				const currentState = button.getAttribute('aria-sort')
 				this.querySelectorAll('[aria-sort]').forEach((itm) =>
@@ -47,11 +99,11 @@ export const defineSortableTableCustomElement = () =>
 				button.setAttribute('aria-sort', state)
 				this._sort(colIndex, state)
 			}
+
 			private _sort(colIndex: number, sort: SortType) {
-				const tbody = this.querySelector('tbody')
-				if (!tbody) return
+				if (!this._tbodyElement) return
 				const dir = sort === 'ascending' ? 1 : -1
-				const rows = Array.from(tbody.querySelectorAll('tbody tr'))
+				const rows = Array.from(this._tbodyElement.rows)
 				const sortedRows = rows.sort((rowA, rowB) => {
 					const cellA = rowA.querySelector(
 						`td:nth-child(${colIndex + 1})`
@@ -68,7 +120,7 @@ export const defineSortableTableCustomElement = () =>
 						}) * dir
 					)
 				})
-				tbody.append(...sortedRows)
+				this._tbodyElement.append(...sortedRows)
 			}
 		}
 	)

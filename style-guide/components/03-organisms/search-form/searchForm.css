@@ -1,0 +1,22 @@
+.searchForm {
+	display: grid;
+	justify-content: center;
+	& label {
+		flex-basis: 100%;
+	}
+
+	& input,
+	& button {
+		grid-row: 2;
+	}
+
+	& input {
+		background-color: var(--clr-neutral-surface-ui);
+		border: 1px solid var(--clr-neutral-border-ui);
+		padding-inline: var(--space--2);
+	}
+
+	& .btn {
+		border-inline-start: 0;
+	}
+}

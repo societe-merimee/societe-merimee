@@ -1,4 +1,7 @@
 sortable-table:defined {
+	padding-block: var(--space-2);
+	display: grid;
+	gap: var(--space-2);
 	& [data-sort] {
 		padding: 0;
 
@@ -129,5 +132,8 @@ td {
 		& span {
 			line-height: 0.5;
 		}
+	}
+	.searchForm {
+		display: none;
 	}
 }

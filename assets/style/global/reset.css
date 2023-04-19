@@ -67,6 +67,10 @@ h6 {
 	overflow-wrap: break-word;
 }
 
+[hidden] {
+	display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	html:focus-within {
 		scroll-behavior: auto;
