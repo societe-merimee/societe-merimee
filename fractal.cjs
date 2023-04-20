@@ -1,5 +1,3 @@
-'use strict'
-
 // require the Mandelbrot theme module
 const mandelbrot = require('@frctl/mandelbrot')
 
@@ -56,3 +54,10 @@ const theme = mandelbrot({
 
 // tell Fractal to use the configured theme by default
 fractal.web.theme(theme)
+const server = fractal.web.server({
+	sync: true,
+})
+server.on('error', (err) => console.error(err.message))
+return server.start().then(() => {
+	console.log(`Fractal server is now running at ${server.url}`)
+})

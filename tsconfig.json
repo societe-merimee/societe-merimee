@@ -21,5 +21,7 @@
 			"@components/*":["style-guide/components/*"]
 		}
 	},
-	"include": ["assets","style-guide/components"]
+	"include": ["assets","style-guide/components"],
+	
+	"references": [{ "path": "./tsconfig.node.json" }]
 }
