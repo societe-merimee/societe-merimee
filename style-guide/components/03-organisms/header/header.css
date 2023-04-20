@@ -1,7 +1,7 @@
 .header {
 	padding-block-start: var(--space-0);
 	background-color: var(--clr-accent-surface-solid);
-	color: var(--clr-neutral-surface-app);
+	color: var(--clr-neutral-text);
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
@@ -50,16 +50,46 @@ sausage-links {
 		gap: var(--space-1);
 		block-size: 100%;
 		margin-inline: auto;
-		padding-block: var(--space--2);
 		/* padding-inline: var(--space-1); */
 		scroll-padding: var(--space--1);
+		/* padding-block: var(--space--3); */
 
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
+
+		/* width */
+		&::-webkit-scrollbar {
+			height: 1rem;
+		}
+
+		/* Track */
+		&::-webkit-scrollbar-track {
+			border-radius: 10px;
+		}
+
+		/* Handle */
+		&::-webkit-scrollbar-thumb {
+			--_bg-color: var(--clr-accent-border-ui);
+			--_padding: 30%;
+			background: linear-gradient(
+				to bottom,
+				transparent var(--_padding),
+				var(--_bg-color) var(--_padding),
+				var(--_bg-color) calc(100% - var(--_padding)),
+				transparent calc(100% - var(--_padding))
+			);
+		}
+
+		/* Handle on hover */
+		&::-webkit-scrollbar-thumb:hover {
+			--_bg-color: var(--clr-accent-border-ui-hover);
+		}
 	}
 	& li {
+		padding-block: var(--space--2);
+		position: relative;
 		scroll-snap-align: center;
 		scroll-snap-stop: always;
 		padding-inline: var(--space--1);
@@ -68,6 +98,19 @@ sausage-links {
 		block-size: 100%;
 		color: inherit;
 		text-decoration: none;
+		&:where(:hover, :focus-visible, [aria-current]) {
+			/* color: var(--clr-neutral-text-shade); */
+			&::after {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: currentColor;
+				height: 3px;
+				border-radius: 2px;
+			}
+		}
 	}
 }
 
