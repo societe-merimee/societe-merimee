@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import path from 'path'
 import { dedale } from 'vite-plugin-dedale'
+import { routes } from './ssg'
 
 export default defineConfig({
 	plugins: [
@@ -8,12 +9,7 @@ export default defineConfig({
 			contentDir: 'content',
 			templateDir: 'templates',
 			templateEngine: 'nunjucks',
-			routes: [
-				{
-					url: '/',
-					template: 'index.njk',
-				},
-			],
+			routes: routes(),
 		}),
 	],
 	resolve: {

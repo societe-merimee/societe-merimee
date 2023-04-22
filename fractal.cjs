@@ -11,9 +11,8 @@ fractal.set('project.title', 'Société Mérimée')
 fractal.components.set('path', __dirname + '/style-guide/components')
 
 const nunjucks = require('@frctl/nunjucks')({
-	env: {
-		// Nunjucks environment opts: https://mozilla.github.io/nunjucks/api.html#configure
-	},
+	paths: ['templates'],
+	env: {},
 	filters: {
 		// filter-name: function filterFunc(){}
 	},
@@ -47,7 +46,7 @@ fractal.docs.set('path', __dirname + '/style-guide/docs')
 // create a new instance with custom config options
 const theme = mandelbrot({
 	skin: 'black',
-	panels: ['html', 'resources', 'notes'],
+	panels: ['html', 'view', 'resources', 'notes'],
 	lang: 'fr',
 	// any other theme configuration values here
 })

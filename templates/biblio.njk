@@ -1,0 +1,95 @@
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper">
+        <h1>Bibliographie</h1>
+        <nav-tabs class="region biblio full-bleed">
+            <article
+                data-label="Œuvres">
+                {# {{ worksBiblio | dump }} #}
+                <sortable-table>
+                    <table>
+                        <caption class="sr-only">Titre</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" data-sort="Titre">Titre</th>
+                                <th scope="col" data-sort="Éditeur scientifique">Éditeur Scientifique</th>
+                                <th scope="col" data-sort="Éditeur">Éditeur</th>
+                                <th scope="col" data-sort="Date">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for entrie in worksBiblio %}
+                                <tr>
+                                    <td class="title">
+                                        {%- if entrie.title2 %}
+                                            <span aria-label="titre principal">"{{ entrie.title1 }}",
+                                            </span>
+                                            <span aria-label="titre secondaire">{{ entrie.title2 }}</span>
+                                        {% else %}
+                                            <span>{{ entrie.title1 }}</span>
+                                        {% endif -%}
+                                    </td>
+                                    <td class="scientificEditor">
+                                        {% if entrie.scientificEditor %}
+                                            <span aria-label="éditeur">{{ entrie.scientificEditor }}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td class="editor">
+                                        {%- if entrie.location %}
+                                            <span class="location" aria-label="lieu d'édition">{{ entrie.location }},</span>
+                                        {% endif -%}
+                                        <span aria-label="éditeur">{{ entrie.editor }}</span>
+                                    </td>
+                                    <td class="date" aria-label="date de publication">
+                                        <span>{{ entrie.date }}</span>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </sortable-table>
+            </article>
+            <article data-label="Études Critiques">
+                <sortable-table>
+                    <table>
+                        <caption class="sr-only">Titre</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" data-sort="Auteur">Auteur</th>
+                                <th scope="col" data-sort="Titre">Titre</th>
+                                <th scope="col" data-sort="Éditeur">Éditeur</th>
+                                <th scope="col" data-sort="Date">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for entrie in criticalBiblio %}
+                                <tr>
+                                    <td class="author">
+                                        <span aria-label="auteur">{{ entrie.author }}</span>
+                                    </td>
+                                    <td class="title">
+                                        {%- if entrie.title2 %}
+                                            <span aria-label="titre principal">"{{ entrie.title1 }}",
+                                            </span>
+                                            <span aria-label="titre secondaire">{{ entrie.title2 }}</span>
+                                        {% else %}
+                                            <span>{{ entrie.title1 }}</span>
+                                        {% endif -%}
+                                    </td>
+                                    <td class="editor">
+                                        {%- if entrie.location %}
+                                            <span class="location" aria-label="lieu d'édition">{{ entrie.location }},</span>
+                                        {% endif -%}
+                                        <span aria-label="éditeur">{{ entrie.editor }}</span>
+                                    </td>
+                                    <td class="date" aria-label="date de publication">
+                                        <span>{{ entrie.date }}</span>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </sortable-table>
+            </article>
+        </main>
+    {% endblock %}

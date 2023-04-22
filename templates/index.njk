@@ -1,111 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite + TS</title>
-	</head>
-	<body>
-		<header>
-			<h1>Titre principal</h1>
-			<nav>
-				<ul role="list">
-					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Produits</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main>
-			<section>
-				<h2>Section 1</h2>
-				<p>
-					Ceci est un paragraphe de texte. Sed tincidunt justo eget
-					massa aliquam vestibulum. Sed id nulla euismod, luctus nulla
-					vel, sagittis enim. Donec eget commodo velit.
-          <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni voluptates blanditiis eius voluptas, sequi vel, enim tempora veritatis, aliquid doloribus iste incidunt tempore minus iusto quia porro distinctio dolor harum.</blockquote>
-          Praesent eget
-					justo quis orci egestas tincidunt non a nisl.
-				</p>
-				<p>
-					Ceci est un autre paragraphe de texte. Aenean sed enim
-					commodo, rutrum elit ut, venenatis enim. Aliquam erat
-					volutpat. Morbi euismod eleifend tellus a feugiat.
-					Vestibulum tempor feugiat sem, sed convallis libero aliquet
-					sit amet.
-				</p>
-				<ul>
-					<li>Liste à puces 1</li>
-					<li>Liste à puces 2</li>
-					<li>Liste à puces 3</li>
-				</ul>
-				<ol>
-					<li>Liste numérotée 1</li>
-					<li>Liste numérotée 2</li>
-					<li>Liste numérotée 3</li>
-				</ol>
-			</section>
-
-			<section>
-				<h2>Section 2</h2>
-				<p>
-					Ceci est un autre paragraphe de texte. Suspendisse eleifend
-					eros ligula, vel pulvinar lacus aliquam eget. Vestibulum
-					bibendum lectus id justo suscipit imperdiet. Fusce non
-					libero non purus commodo posuere in a leo. Aenean vel velit
-					pharetra, bibendum tellus at, hendrerit tellus.
-				</p>
-				<table>
-					<thead>
-						<tr>
-							<th>Nom</th>
-							<th>Âge</th>
-							<th>Ville</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>John Doe</td>
-							<td>32</td>
-							<td>New York</td>
-						</tr>
-						<tr>
-							<td>Jane Doe</td>
-							<td>27</td>
-							<td>San Francisco</td>
-						</tr>
-						<tr>
-							<td>Bob Smith</td>
-							<td>45</td>
-							<td>London</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-
-			<section>
-				<h2>Section 3</h2>
-				<p>
-					Ceci est un autre paragraphe de texte. Quisque quis
-					malesuada orci, vel vehicula nisl. Praesent euismod felis
-					vitae orci vestibulum, in rutrum ex commodo. Sed pretium,
-					nulla ut varius imperdiet, nibh nibh commodo odio, sit amet
-					hendrerit tellus mi sit amet tellus.
-				</p>
-				<form>
-					<label for="nom">Nom :</label>
-					<input type="text" id="nom" name="nom" required />
-					<label for="email">Email :</label>
-					<input type="email" id="email" name="email" required />
-					<label for="message">Message :</label>
-					<textarea id="message" name="message" required></textarea>
-					<button type="submit">Envoyer</button>
-				</form>
-			</section>
-		</main>
-		<script type="module" src="/assets/main.ts"></script>
-	</body>
-</html>
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper">
+        <article class="region flow">
+            <h1>La Société</h1>
+            {{ description | safe }}
+        </article>
+        {% if news.length %}
+            <article class="region flow">
+                <h2>Actualités</h2>
+                {# {{ news | dump }} #}
+                <div class="news">
+                    {% for item in news %}
+                        <details-utils animate>
+                            <details>
+                                <summary>{{ item.title }}</summary>
+                                <div class="details_content with-sidebar region">
+                                    {% if item.thumbnail %}
+                                        <picture>
+                                            <img src="{{ item.thumbnail.image }}" alt="{{ item.thumbnail.alt }}"/>
+                                        </picture>
+                                    {% endif %}
+                                    <div class="news_description">
+                                        {{ item.description | safe }}
+                                    </div>
+                                </div>
+                            </details>
+                        </details-utils>
+                    {% endfor %}
+                </div>
+            </article>
+        {% endif %}
+    </main>
+{% endblock %}

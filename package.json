@@ -6,7 +6,7 @@
 	"scripts": {
 		"pnpm": "pnpm",
 		"dev:site": "vite",
-		"dev:style-guide": "fractal start --sync",
+		"dev:style-guide": "node fractal.cjs",
 		"local-cms": "pnpx netlify-cms-proxy-server",
 		"dev": "concurrently \"pnpm dev:site\" \"pnpm dev:style-guide\"",
 		"build": "tsc && vite build",
@@ -20,6 +20,8 @@
 		"@frctl/nunjucks": "^2.0.15",
 		"@types/uuid": "^9.0.1",
 		"concurrently": "^8.0.1",
+		"marked": "^4.3.0",
+		"nunjucks": "^3.2.4",
 		"postcss-import": "^15.1.0",
 		"postcss-import-ext-glob": "^2.1.1",
 		"postcss-preset-env": "^8.2.0",
@@ -31,6 +33,7 @@
 	"dependencies": {
 		"@fontsource/dm-sans": "^4.5.9",
 		"@fontsource/dm-serif-display": "^4.5.10",
+		"@zachleat/details-utils": "^2.0.2",
 		"uuid": "^9.0.0"
 	}
 }
