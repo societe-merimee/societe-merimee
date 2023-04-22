@@ -6,7 +6,8 @@
 	border-style: solid;
 	padding-inline: var(--space--2);
 	padding-block: var(--space--3);
-	display: flex;
+	display: inline-flex;
+	text-decoration: none;
 	align-items: center;
 	gap: var(--space--3);
 	transition: transform 0.2s ease-in;

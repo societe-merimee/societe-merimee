@@ -1,0 +1,19 @@
+.skipToContent {
+	position: absolute;
+	top: 0%;
+	background: var(--clr-neutral-surface-subtle);
+	color: var(--clr-neutral-text);
+	font-weight: 700;
+	left: 50%;
+	padding-inline: var(--space-0);
+	padding-block: var(--space--2);
+	text-decoration: none;
+	transform: translate(-50%, 0);
+	opacity: 0;
+	transition: transform 0.2s ease;
+}
+
+.skipToContent:focus {
+	opacity: 1;
+	transform: translate(-50%, 100%);
+}

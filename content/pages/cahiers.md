@@ -1,0 +1,1 @@
+Cette revue, ouverte à des orientations et disciplines diverses, a été conçue dans la visée de faire connaître l'œuvre de Mérimée dans son extraordinaire pluralité culturelle.

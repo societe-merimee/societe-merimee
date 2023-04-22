@@ -1,0 +1,24 @@
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper" id="main">
+        <h1>Séminaires</h1>
+        <article class="flow">
+            <section>
+                {{ description | safe }}
+            </section>
+            <section>
+                {% for seminar in seminars %}
+                    {# {{ seminar|dump }} #}
+                    <details-utils animate>
+                        <details>
+                            <summary>{{ seminar.title }}</summary>
+                            <div class="details_content with-sidebar region">
+                                {{ seminar.description | safe }}
+                            </div>
+                        </details>
+                    </details-utils>
+                {% endfor %}
+            </section>
+        </article>
+    </main>
+{% endblock %}

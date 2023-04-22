@@ -1,5 +1,11 @@
 import { readFileSync } from 'node:fs'
-import { CriticalBibliography, NewsList, WorkBibliography } from '../types'
+import type {
+	Seminars,
+	CriticalBibliography,
+	NewsList,
+	WorkBibliography,
+	Cahiers,
+} from '../types'
 import { parse as parseMd } from 'marked'
 
 const rawNews = JSON.parse(readFileSync('content/lists/news.json', 'utf-8'))
@@ -21,3 +27,24 @@ export const worksBiblio = JSON.parse(
 export const criticalBiblio = JSON.parse(
 	readFileSync('content/lists/critical-bibliography.json', 'utf-8')
 ).entries as CriticalBibliography
+
+export const rawSeminars = JSON.parse(
+	readFileSync('content/lists/seminars.json', 'utf-8')
+).seminars as Seminars
+
+export const seminars = rawSeminars
+	.map((itm) => ({
+		...itm,
+		description: parseMd(itm.description),
+	}))
+	.sort((a, b) => {
+		return Number(new Date(b.date)) - Number(new Date(a.date))
+	})
+export const rawCahiers = JSON.parse(
+	readFileSync('content/lists/cahiers.json', 'utf-8')
+).cahiers as Cahiers
+
+export const cahiers = rawCahiers.map((itm) => ({
+	...itm,
+	description: parseMd(itm.description),
+}))

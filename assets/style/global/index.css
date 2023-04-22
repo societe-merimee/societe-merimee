@@ -9,6 +9,10 @@ p {
 	max-inline-size: var(--measure-3);
 }
 
+:not(blockquote) img {
+	margin-inline: auto;
+}
+
 :focus-visible {
 	outline-offset: 3px;
 	transition: outline-offset 0.15s;

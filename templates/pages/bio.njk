@@ -1,0 +1,22 @@
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper">
+        <section
+            class="hero" style="--_bg-url:url({{ picture }})">
+            {# <picture>
+                                                                                                                            <img src="{{ picture }}" alt="Portrait de Prosper Mérimée"/>
+                                                                                                                        </picture> #}
+            <div class="hero_cartel">
+                <span>Prosper</span>
+                <span>Mérimée</span>
+            </div>
+            <div class="hero_cartel">
+                1803 - 1870
+            </div>
+        </section>
+        <h1>Biographie</h1>
+        <article class="flow region" id="main">
+            {{ content | safe }}
+        </article>
+    </main>
+{% endblock %}

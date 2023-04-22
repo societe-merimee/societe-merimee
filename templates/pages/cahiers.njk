@@ -1,0 +1,27 @@
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper" id="main">
+        <h1>Cahiers Mérimée</h1>
+        <article class="flow">
+            <section>
+                {{ description | safe }}
+            </section>
+            <section>
+                {% for cahier in cahiers %}
+                    {# {{ seminar|dump }} #}
+                    <details-utils animate>
+                        <details class="cahier">
+                            <summary>{{ cahier.title }}</summary>
+                            <div class="details_content region flow">
+                                {{ cahier.description | safe }}
+                                <footer>
+                                    <a href="{{ cahier.url }}" target="_blank" class="btn">Commander</a>
+                                </footer>
+                            </div>
+                        </details>
+                    </details-utils>
+                {% endfor %}
+            </section>
+        </article>
+    </main>
+{% endblock %}

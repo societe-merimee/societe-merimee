@@ -14,7 +14,16 @@ collections:
       file: "content/pages/home.md"
       fields:
         - {label: Description de la société, name: body, widget: markdown}
-
+    - label: "Cahiers"
+      name: "cahiers"
+      file: "content/pages/cahiers.md"
+      fields:
+        - {label: Description de la revue, name: body, widget: markdown}
+    - label: "Séminaires"
+      name: "seminars"
+      file: "content/pages/seminars.md"
+      fields:
+        - {label: Description globale des séminaires, name: body, widget: markdown}
     - label: "Biographie"
       name: "biography"
       file: "content/pages/biography.md"
@@ -71,16 +80,10 @@ collections:
             label_singular: cahier
             add_to_top: true
             widget: list
-            fields:
-              - label: Articles
-                name: "article"
-                label_singular: article
-                widget: list
-                summary: '{{fields.title}}'
-                fields: 
-                  - {label: Titre, name: title, widget: string}
-                  - {label: description, name: description, widget: markdown}
-                  - {label: lien, name: url, widget: string}
+            fields: 
+              - {label: Titre, name: title, widget: string}
+              - {label: description, name: description, widget: markdown}
+              - {label: lien, name: url, widget: string}
       - label: "Séminaires"
         name: "seminars"
         file: "content/lists/seminars.json"

@@ -33,15 +33,14 @@ type CriticalBibliographyItem = {
 	date: string
 }
 
-/*
+export type Seminars = {
+	title: string
+	date: string
+	description: string
+}[]
 
-{
-		{
-			"author": "ANON, C. R. de Claudie Bernard",
-			"title1": "Le passé recomposé. Le roman historique français du dix-neuvième siècle",
-			"title2": "Forum for Modern Language Studies vol. 35",
-			"location": "Paris",
-			"editor": "Hachette",
-			"date": "1996"
-		},
-*/
+export type Cahiers = {
+	title: string
+	description: string
+	url: string
+}[]

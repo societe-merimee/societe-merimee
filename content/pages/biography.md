@@ -1,5 +1,5 @@
 ---
-picture: /images/uploads/portrait.png
+picture: /images/uploads/lpdp_33464-14.jpg
 ---
 ## Naissance
 
