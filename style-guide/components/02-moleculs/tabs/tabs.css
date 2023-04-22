@@ -17,6 +17,15 @@ nav-tabs [role='tablist'] {
 	grid-auto-flow: column;
 	grid-auto-columns: 1fr;
 	scroll-snap-type: x mandatory;
+	position: relative;
+	&:focus-within {
+		outline-offset: 3px;
+		transition: outline-offset 0.15s;
+		outline: 2px solid var(--clr-accent-border-ui-hover);
+
+		position: relative;
+		z-index: 1;
+	}
 }
 
 nav-tabs [role='tab'] {
@@ -27,12 +36,14 @@ nav-tabs [role='tab'] {
 	white-space: nowrap;
 	color: var(--clr-neutral-text-shade);
 	background-color: var(--clr-neutral-surface-ui);
+	position: relative;
 	border: 1px solid transparent;
 	&:where(:hover, :focus-within) {
 		color: var(--clr-neutral-text);
 		background-color: var(--clr-neutral-surface-ui-hover);
 		border-bottom: 1px solid var(--clr-neutral-border-ui-hover);
 	}
+
 	&[aria-selected='true'] {
 		background-color: var(--clr-accent-surface-ui-active);
 		color: var(--clr-accent-text);

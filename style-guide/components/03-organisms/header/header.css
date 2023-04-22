@@ -6,12 +6,13 @@
 	display: flex;
 	flex-direction: column;
 	gap: var(--space--3);
-	& h1 {
+	& .h1 {
 		padding-inline: var(--space-0);
 		display: block;
 		margin-inline: auto;
 		color: inherit;
 		text-align: center;
+		text-decoration: none;
 	}
 }
 
@@ -28,8 +29,13 @@ sausage-links {
 		margin-inline: var(--btn-gap);
 		aspect-ratio: 1;
 		border-radius: 50%;
-		padding: 0;
 		border: 0;
+		background-color: transparent;
+		color: inherit;
+		transition: transform 0.2s ease-in;
+		&:active {
+			transform: scale(1.2);
+		}
 	}
 	& button.next {
 		order: 100;
@@ -50,26 +56,21 @@ sausage-links {
 		gap: var(--space-1);
 		block-size: 100%;
 		margin-inline: auto;
-		/* padding-inline: var(--space-1); */
 		scroll-padding: var(--space--1);
-		/* padding-block: var(--space--3); */
 
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 
-		/* width */
 		&::-webkit-scrollbar {
 			height: 1rem;
 		}
 
-		/* Track */
 		&::-webkit-scrollbar-track {
 			border-radius: 10px;
 		}
 
-		/* Handle */
 		&::-webkit-scrollbar-thumb {
 			--_bg-color: var(--clr-accent-border-ui);
 			--_padding: 30%;
@@ -106,10 +107,13 @@ sausage-links {
 				left: 0;
 				bottom: 0;
 				width: 100%;
-				background-color: currentColor;
+				background-color: var(--clr-neutral-text-shade);
 				height: 3px;
 				border-radius: 2px;
 			}
+		}
+		&[aria-current]::after {
+			background-color: currentColor;
 		}
 	}
 }

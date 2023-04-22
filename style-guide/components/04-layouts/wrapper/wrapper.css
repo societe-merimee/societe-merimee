@@ -1,0 +1,9 @@
+.wrapper > * {
+	margin-inline: auto;
+	inline-size: var(--wrapper-size, var(--main-width));
+	padding-inline: var(--wrapper-padding, var(--space--3));
+}
+
+.wrapper .full-bleed {
+	--wrapper-size: var(--full-width);
+}

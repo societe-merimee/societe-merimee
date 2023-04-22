@@ -1,23 +1,27 @@
 h1,
+.h1,
 h2,
-h3 {
-	line-height: 1.1;
+.h2,
+h3,
+.h3 {
+	max-inline-size: var(--measure-1);
+	line-height: var(--lineheight-1);
 	color: var(--clr-neutral-text);
 	font-family: var(--font-display);
 	font-style: italic;
 }
 
-h1 {
-	max-inline-size: 20ch;
+h1,
+.h1 {
 	font-size: var(--font-size-5);
 }
 
-h2 {
-	max-inline-size: 28ch;
+h2,
+.h2 {
 	font-size: var(--font-size-4);
 }
 
-h3 {
-	max-inline-size: 28ch;
+h3,
+.h3 {
 	font-size: var(--font-size-3);
 }

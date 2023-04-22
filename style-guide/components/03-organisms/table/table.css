@@ -4,13 +4,23 @@ sortable-table:defined {
 	gap: var(--space-2);
 	& [data-sort] {
 		padding: 0;
-
+		& th {
+			display: grid;
+		}
 		& button {
-			inset: 0;
-			width: 100%;
+			inline-size: 100%;
+			block-size: 100%;
 			border: 0;
 			justify-content: space-between;
-			padding-inline: var(--space-0);
+			padding-inline: var(--space--3);
+		}
+		& button span {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			inline-size: 80%;
+			text-align: left;
+			padding-inline-start: var(--space-0);
 		}
 		& svg {
 			display: none;
@@ -87,14 +97,17 @@ td {
 	thead {
 		display: none;
 	}
+
 	tbody {
 		outline: 0;
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
 	}
+
 	tr {
-		display: block;
+		grid-column: 2;
 		padding-block: var(--space--2);
-		max-inline-size: 66ch;
-		margin-inline: auto;
+		inline-size: var(--main-width);
 		background-color: transparent !important;
 		border: 0 !important;
 	}
@@ -110,6 +123,9 @@ td {
 		}
 		&:not(:last-child) span:last-child::after {
 			content: ', ';
+		}
+		&.scientificEditor::before {
+			content: 'éd. ';
 		}
 	}
 }

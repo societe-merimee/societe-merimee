@@ -1,8 +1,6 @@
 a {
-	padding: 0.25rem;
-	margin: -0.25rem;
-
 	&:not([class]) {
+		padding-inline: var(--space--3);
 		position: relative;
 		font-family: var(--font-display);
 		color: var(--clr-neutral-text-shade);
