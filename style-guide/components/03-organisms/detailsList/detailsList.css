@@ -1,3 +1,7 @@
 details + details {
 	border-block-start: 1px solid var(--clr-neutral-border-subtle);
 }
+
+details-utils + details-utils details {
+	border-block-start: 1px solid var(--clr-neutral-border-subtle);
+}
