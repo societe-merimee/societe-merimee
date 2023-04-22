@@ -8,7 +8,10 @@ specifiers:
   '@frctl/mandelbrot': ^1.10.3
   '@frctl/nunjucks': ^2.0.15
   '@types/uuid': ^9.0.1
+  '@zachleat/details-utils': ^2.0.2
   concurrently: ^8.0.1
+  marked: ^4.3.0
+  nunjucks: ^3.2.4
   postcss-import: ^15.1.0
   postcss-import-ext-glob: ^2.1.1
   postcss-preset-env: ^8.2.0
@@ -21,6 +24,7 @@ specifiers:
 dependencies:
   '@fontsource/dm-sans': 4.5.9
   '@fontsource/dm-serif-display': 4.5.10
+  '@zachleat/details-utils': 2.0.2
   uuid: 9.0.0
 
 devDependencies:
@@ -30,6 +34,8 @@ devDependencies:
   '@frctl/nunjucks': 2.0.15_@frctl+fractal@1.5.15
   '@types/uuid': 9.0.1
   concurrently: 8.0.1
+  marked: 4.3.0
+  nunjucks: 3.2.4
   postcss-import: 15.1.0_postcss@8.4.21
   postcss-import-ext-glob: 2.1.1_postcss@8.4.21
   postcss-preset-env: 8.2.0_postcss@8.4.21
@@ -670,7 +676,7 @@ packages:
       '@frctl/fractal': 1.5.15
       bluebird: 3.7.2
       lodash: 4.17.21
-      nunjucks: 3.2.3
+      nunjucks: 3.2.4
     transitivePeerDependencies:
       - chokidar
     dev: true
@@ -688,7 +694,7 @@ packages:
       get-port: 5.1.1
       js-yaml: 4.1.0
       lodash: 4.17.21
-      nunjucks: 3.2.3_chokidar@3.5.3
+      nunjucks: 3.2.4_chokidar@3.5.3
       path-to-regexp: 6.2.1
       require-all: 3.0.0
       throat: 6.0.2
@@ -805,6 +811,10 @@ packages:
   /@types/uuid/9.0.1:
     resolution: {integrity: sha512-rFT3ak0/2trgvp4yYZo5iKFEPsET7vKydKF+VRCxlQ9bpheehyAJH89dAkaLEq/j/RZXJIqcgsmPJKUP1Z28HA==}
     dev: true
+
+  /@zachleat/details-utils/2.0.2:
+    resolution: {integrity: sha512-yDkn4IpfWIEXrNRTxKk2X0Gti5UCKXqs5eD2j/cBAuokn0miRXfJHMa+SnB2MRWzATHm031hCFm2v9FV3W6f3g==}
+    dev: false
 
   /a-sync-waterfall/1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -3356,8 +3366,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /nunjucks/3.2.3:
-    resolution: {integrity: sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==}
+  /nunjucks/3.2.4:
+    resolution: {integrity: sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==}
     engines: {node: '>= 6.9.0'}
     hasBin: true
     peerDependencies:
@@ -3371,8 +3381,8 @@ packages:
       commander: 5.1.0
     dev: true
 
-  /nunjucks/3.2.3_chokidar@3.5.3:
-    resolution: {integrity: sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==}
+  /nunjucks/3.2.4_chokidar@3.5.3:
+    resolution: {integrity: sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==}
     engines: {node: '>= 6.9.0'}
     hasBin: true
     peerDependencies:
@@ -5070,7 +5080,7 @@ packages:
       glob: 8.1.0
       marked: 4.3.0
       minimatch: 5.1.6
-      nunjucks: 3.2.3_chokidar@3.5.3
+      nunjucks: 3.2.4_chokidar@3.5.3
       ts-pattern: 4.2.2
     dev: true
 

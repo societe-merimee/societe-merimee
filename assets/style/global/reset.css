@@ -14,7 +14,7 @@ body {
 }
 
 body {
-	line-height: 1.7;
+	line-height: var(--lineheight-2);
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeSpeed;
 }

@@ -1,4 +1,5 @@
 @import-glob "./style/settings/*.css";
 @import-glob "./style/global/*.css";
 @import-glob "../style-guide/components/**/*.css";
+@import-glob "./style/blocks/*.css";
 @import-glob "./style/utilities/*.css";

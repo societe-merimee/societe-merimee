@@ -38,6 +38,11 @@ export const defineSausageLinksCustomElement = () =>
 						this._checkScrollPosition()
 					}, 100)
 				})
+
+				const current =
+					document.querySelector('a[aria-current]')?.parentElement
+				if (current) this._scrollToLink(current)
+				else this._sausageLinksElements?.scrollTo(0, 0)
 			}
 
 			private _handleClickNext(direction: number) {
@@ -45,12 +50,7 @@ export const defineSausageLinksCustomElement = () =>
 				const nextItem = this._getNextItem(direction)
 
 				if (nextItem instanceof HTMLElement) {
-					const center =
-						nextItem.offsetLeft +
-						nextItem.offsetWidth * 0.5 -
-						this._sausageLinksElements.offsetLeft -
-						this._sausageLinksElements.clientWidth * 0.5
-					this._sausageLinksElements.scrollTo(center, 0)
+					this._scrollToLink(nextItem)
 				} else {
 					this._sausageLinksElements.scrollTo(
 						direction < 0
@@ -79,6 +79,16 @@ export const defineSausageLinksCustomElement = () =>
 							this._sausageLinksElements!.clientWidth
 						return right > containerRight
 					})
+			}
+
+			private _scrollToLink(element: HTMLElement) {
+				if (!this._sausageLinksElements) return
+				const center =
+					element.offsetLeft +
+					element.offsetWidth * 0.5 -
+					this._sausageLinksElements.offsetLeft -
+					this._sausageLinksElements.clientWidth * 0.5
+				this._sausageLinksElements.scrollTo(center, 0)
 			}
 
 			private _checkOverflow() {

@@ -79,7 +79,7 @@ export const defineSortableTableCustomElement = () =>
 					})
 					const key = wrapper.getAttribute('data-sort')
 					btn.innerHTML = `
-					${key} 
+					<span>${key} </span>
 					<svg width="1em" height="1em" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="up"><use href="#chevron-up-icon"/></svg>
 					<svg width="1em" height="1em" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="down"><use href="#chevron-down-icon"/></svg>`
 					btn.addEventListener('click', () =>
@@ -111,9 +111,8 @@ export const defineSortableTableCustomElement = () =>
 					const cellB = rowB.querySelector(
 						`td:nth-child(${colIndex + 1})`
 					)?.textContent
-					if (!cellA && !cellB) return 0
-					if (!cellA) return -1 * dir
-					if (!cellB) return 1 * dir
+					if (!cellA || cellA.trim() === '') return 1 * dir
+					if (!cellB || cellB.trim() === '') return -1 * dir
 					return (
 						cellA.trim().localeCompare(cellB.trim(), 'fr', {
 							ignorePunctuation: true,
