@@ -13,6 +13,7 @@ const biographyPageFile = loadMdFile<BiographyFile>(
 export const biographyPage = {
 	picture: biographyPageFile.frontmatter.picture,
 	content: biographyPageFile.content,
+	headings: biographyPageFile.headings,
 }
 
 export const cahiersDescription = loadMdFile('content/pages/cahiers.md').content
