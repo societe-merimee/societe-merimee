@@ -3,6 +3,12 @@ body {
 	color: var(--clr-neutral-text);
 	font-family: var(--font-prose);
 	font-size: var(--font-size-0);
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
 }
 
 p {
