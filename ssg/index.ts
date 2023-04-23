@@ -9,6 +9,8 @@ import {
 	cahiers,
 	cahiersDescription,
 	seminarsDescription,
+	articlesRoutes,
+	categoriesRoutes,
 } from './datas'
 
 export const routes = () =>
@@ -57,4 +59,6 @@ export const routes = () =>
 				criticalBiblio,
 			},
 		},
+		...articlesRoutes,
+		...categoriesRoutes,
 	] satisfies Route[]

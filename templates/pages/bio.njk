@@ -4,8 +4,8 @@
         <section
             class="hero" style="--_bg-url:url({{ picture }})">
             {# <picture>
-                                                                                                                                                                                                                                                                                        <img src="{{ picture }}" alt="Portrait de Prosper Mérimée"/>
-                                                                                                                                                                                                                                                                                    </picture> #}
+                                                                                                                                                                                                                                                                                                    <img src="{{ picture }}" alt="Portrait de Prosper Mérimée"/>
+                                                                                                                                                                                                                                                                                                </picture> #}
             <div class="hero_cartel">
                 <span>Prosper</span>
                 <span>Mérimée</span>
@@ -15,20 +15,7 @@
             </div>
         </section>
         <h1>Biographie</h1>
-        <article
-            class="region" id="main">
-            {# {% if headings.length %}
-                                                    <nav class="toc">
-                                                        <h3>Table des matières</h3>
-                                                        <ol>
-                                                            {% for link in headings %}
-                                                                <li>
-                                                                    <a href="#{{ link.slug }}">{{ link.text }}</a>
-                                                                </li>
-                                                            {% endfor %}
-                                                        </ol>
-                                                    </nav>
-                                                {% endif %} #}
+        <article class="region" id="main">
             <div class="content flow">
                 {{ content | safe }}
             </div>

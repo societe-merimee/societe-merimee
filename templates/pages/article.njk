@@ -1,0 +1,17 @@
+{% extends 'layouts/base.njk' %}
+{% block content %}
+    <main class="flow region wrapper" id="main">
+        <h1>{{ title | capitalize }}</h1>
+        <p>
+            <time datetime="{{ date }}">{{ formatedDate }}</time>
+        </p>
+        <picture class="full-bleed ">
+            <img src="{{ thumbnail.image }}" alt=""/>
+        </picture>
+        <article class="region" id="main">
+            <div class="content flow">
+                {{ content | safe }}
+            </div>
+        </article>
+    </main>
+{% endblock %}

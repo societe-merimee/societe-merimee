@@ -15,6 +15,10 @@ p {
 	max-inline-size: var(--measure-3);
 }
 
+time {
+	font-style: italic;
+}
+
 :not(blockquote) img {
 	margin-inline: auto;
 }

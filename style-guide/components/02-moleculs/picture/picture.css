@@ -1,6 +1,7 @@
 picture {
 	inline-size: 100%;
 	aspect-ratio: 16 / 9;
+	max-block-size: 80vh;
 }
 
 picture > img {
