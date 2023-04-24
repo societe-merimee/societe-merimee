@@ -2,51 +2,47 @@
 {% block content %}
     <main class="flow region wrapper" id="main">
         <h1>{{ title | capitalize }}</h1>
-        {% for article in articles %}
-            <article class="card">
-                <picture>
-                    <img src="{{ article.thumbnail.image }}" alt="{{ article.thumbnail.alt }}"/>
-                </picture>
-                <div class="card_content">
-                    <h3>
+        <section class="grid region full-bleed">
+            {% for article in articles %}
+                <article class="card flow with-sidebar ">
+                    <picture>
+                        <img src="{{ article.thumbnail.image }}" alt="{{ article.thumbnail.alt }}"/>
+                    </picture>
+                    <div class="card_content flow">
+                        <h3>
+                            <a href="{{ article.url }}">
+                                {{ article.title | capitalize }}
+                            </a>
+                        </h3>
+                        <p>
+                            {{ article.resume | truncate(150,true,"...") }}
+                        </p>
                         <a href="{{ article.url }}">
-                            {{ article.title }}
+                            lire l'article
                         </a>
-                    </h3>
-                    <p>
-                        {{ article.resume | truncate(300,true,"...") }}
-                    </p>
-                    <a href="{{ article.url }}">
-                        lire l'article
-                    </a>
-                </div>
-            </article>
-        {% endfor %}
+                    </div>
+                </article>
+            {% endfor %}
+            {% for article in articles %}
+                <article class="card flow with-sidebar ">
+                    <picture>
+                        <img src="{{ article.thumbnail.image }}" alt="{{ article.thumbnail.alt }}"/>
+                    </picture>
+                    <div class="card_content flow">
+                        <h3>
+                            <a href="{{ article.url }}">
+                                {{ article.title | capitalize }}
+                            </a>
+                        </h3>
+                        <p>
+                            {{ article.resume | truncate(150,true,"...") }}
+                        </p>
+                        <a href="{{ article.url }}">
+                            lire l'article
+                        </a>
+                    </div>
+                </article>
+            {% endfor %}
+        </section>
     </main>
 {% endblock %}
-{# <article class="card">
-                <img
-                    alt="Images of the BliBli app."
-                    src="https://web-dev.imgix.net/image/sQ51XsLqKMgSQMCZjIN0B7hlBO02/nO8c2UEgQRXsoYVp3tZO.png?auto=format&amp;w=1600">
-                    <div class="card__content flow">
-                        <h3 class="card__heading text-size-3">
-                            <a href="#">Blibli's PWA generates 10x more revenue per user than their previous mobile website</a>
-                        </h3>
-                        <p>How Blibli achieved a 42% reduction in bounce rate, an 8x improvement in mobile conversion rate, and 2.5x more pages
-                            per session.</p>
-                        <div class="cluster gutter-base">
-                            <div class="card__avatars cluster" aria-hidden="true">
-                                <a class="avatar" href="https://web.dev/authors/collindionagata/">
-                                    <img
-                                        alt="Image of Collin Dion Agata"
-                                        src="https://web-dev.imgix.net/image/sQ51XsLqKMgSQMCZjIN0B7hlBO02/ZpE2N6yjkaqQNcSiaxvR.jpeg?fit=crop&amp;h=64&amp;w=64&amp;auto=format&amp;dpr=2&amp;q=50"></a>
-                                </div>
-                                <ul class="card__authors flow-space-base cluster" aria-label="authors" role="list">
-                                    <li>
-                                        <a href="https://web.dev/authors/collindionagata/">Collin Dion Agata</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <a class="card__action">More</a>
-                    </article> #}

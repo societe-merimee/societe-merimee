@@ -1,4 +1,5 @@
 a {
+	z-index: 1;
 	&:not([class]) {
 		padding-inline: var(--space--3);
 		position: relative;

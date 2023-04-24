@@ -1,0 +1,20 @@
+.card {
+	background-color: var(--clr-neutral-surface-subtle);
+	border: 1px solid var(--clr-neutral-border-subtle);
+	padding-block: var(--space--1);
+	padding-inline: var(--space-0);
+}
+
+.card_content {
+	& > :last-child {
+		float: right;
+		--flow-space: var(--space-1);
+	}
+}
+
+.card:nth-last-child(-n + 3):first-child,
+.card:nth-last-child(-n + 3):first-child ~ .card {
+	grid-column: 1 / -1;
+	--wrapper-size: var(--main-width);
+	margin-inline: auto;
+}

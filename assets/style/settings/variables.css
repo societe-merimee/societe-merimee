@@ -1,7 +1,7 @@
 @design-tokens url('./tokens.json') format('style-dictionary3');
 
 :root {
-	--full-width: clamp(20rem, 95, 90rem);
+	--full-width: clamp(20rem, 95vw, 90rem);
 
 	--main-width: clamp(20rem, 80vw, var(--measure-3));
 

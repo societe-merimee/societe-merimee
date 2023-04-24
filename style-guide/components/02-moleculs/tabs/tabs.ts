@@ -8,6 +8,7 @@ export const defineTabsCustomElement = () =>
 		class Tabs extends HTMLElement {
 			private _panels: HTMLElement[] = []
 			private _tabs: HTMLElement[] = []
+			private _loaded = false
 
 			connectedCallback() {
 				this._panels = Array.from(this.children) as HTMLElement[]
@@ -18,6 +19,7 @@ export const defineTabsCustomElement = () =>
 				if (firstChild) this.insertBefore(tabList, firstChild)
 
 				this.activeTab = 0
+				this._loaded = true
 			}
 
 			static get observedAttributes() {
@@ -124,7 +126,7 @@ export const defineTabsCustomElement = () =>
 					'aria-selected': 'true',
 					tabindex: '0',
 				})
-				currentTab.focus()
+				if (this._loaded) currentTab.focus()
 			}
 		}
 	)

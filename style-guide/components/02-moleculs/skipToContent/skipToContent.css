@@ -1,4 +1,5 @@
 .skipToContent {
+	z-index: 999;
 	position: absolute;
 	top: 0%;
 	background: var(--clr-neutral-surface-subtle);

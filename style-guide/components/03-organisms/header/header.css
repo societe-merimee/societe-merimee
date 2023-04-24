@@ -1,6 +1,8 @@
 .header {
 	padding-block-start: var(--space-0);
 	background-color: var(--clr-accent-surface-solid);
+	/* background-color: var(--clr-neutral-surface-subtle); */
+	/* border-block-end: 1px solid var(--clr-neutral-border-subtle); */
 	color: var(--clr-neutral-text);
 	justify-content: center;
 	display: flex;
