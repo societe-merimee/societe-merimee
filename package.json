@@ -36,5 +36,10 @@
 		"@fontsource/dm-serif-display": "^4.5.10",
 		"@zachleat/details-utils": "^2.0.2",
 		"uuid": "^9.0.0"
-	}
+	},
+	"browserslist": [
+		"last 2 versions",
+		"> 2%",
+		"not dead"
+	]
 }
