@@ -25,7 +25,7 @@ export const routes = () =>
 			},
 		},
 		{
-			url: '/biographie',
+			url: '/biographie/',
 			template: 'pages/bio.njk',
 			data: {
 				title: 'biographie',
@@ -33,7 +33,7 @@ export const routes = () =>
 			},
 		},
 		{
-			url: '/seminaires',
+			url: '/seminaires/',
 			template: 'pages/detailsList.njk',
 			data: {
 				title: 'seminaires',
@@ -42,7 +42,7 @@ export const routes = () =>
 			},
 		},
 		{
-			url: '/cahiers',
+			url: '/cahiers/',
 			template: 'pages/detailsList.njk',
 			data: {
 				title: 'cahiers',
@@ -51,7 +51,7 @@ export const routes = () =>
 			},
 		},
 		{
-			url: '/bibliographie',
+			url: '/bibliographie/',
 			template: 'pages/biblio.njk',
 			data: {
 				title: 'bibliographies',
