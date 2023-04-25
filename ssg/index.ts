@@ -19,7 +19,7 @@ export const routes = () =>
 			url: '/',
 			template: 'pages/home.njk',
 			data: {
-				title: 'Accueil',
+				title: 'accueil',
 				description: homePage,
 				news: newsList,
 			},
@@ -28,25 +28,25 @@ export const routes = () =>
 			url: '/biographie',
 			template: 'pages/bio.njk',
 			data: {
-				title: 'Biographie',
+				title: 'biographie',
 				...biographyPage,
 			},
 		},
 		{
 			url: '/seminaires',
-			template: 'pages/seminars.njk',
+			template: 'pages/detailsList.njk',
 			data: {
-				title: 'Seminaires',
-				seminars,
+				title: 'seminaires',
+				list: seminars,
 				description: seminarsDescription,
 			},
 		},
 		{
 			url: '/cahiers',
-			template: 'pages/cahiers.njk',
+			template: 'pages/detailsList.njk',
 			data: {
-				title: 'Cahiers',
-				cahiers,
+				title: 'cahiers',
+				list: cahiers,
 				description: cahiersDescription,
 			},
 		},
@@ -54,7 +54,7 @@ export const routes = () =>
 			url: '/bibliographie',
 			template: 'pages/biblio.njk',
 			data: {
-				title: 'Bibliographies',
+				title: 'bibliographies',
 				worksBiblio,
 				criticalBiblio,
 			},

@@ -56,11 +56,4 @@ export type BlogArticleFrontmatter = {
 	}
 }
 
-/*
-title: premier article
-category: adaptations
-date: 2023-04-17T14:09:21.257Z
-thumbnail:
-  alt: une fausse image
-  image: /images/uploads/imgplaceholder.png
-*/
+export type Nav = { url: string; label: string }[]

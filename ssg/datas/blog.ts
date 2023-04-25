@@ -1,9 +1,11 @@
 import { Route, loadAllMdFilesFrom } from 'vite-plugin-dedale'
 import { BlogArticleFrontmatter } from '../types'
-import { slugify } from '../utils'
+import { slugify, sortByFrontmatterDate, sortBydate } from '../utils'
 import { formatDate } from '../utils/formatDate'
 
-const rawArticles = loadAllMdFilesFrom<BlogArticleFrontmatter>('content/blog')
+const rawArticles = loadAllMdFilesFrom<BlogArticleFrontmatter>(
+	'content/blog'
+).sort(sortByFrontmatterDate)
 
 export const articlesRoutes: Route[] = rawArticles.map((raw) => {
 	const { category, title, thumbnail, date } = raw.frontmatter
@@ -27,7 +29,7 @@ export const articlesRoutes: Route[] = rawArticles.map((raw) => {
 
 const categories = Array.from(
 	new Set(rawArticles.map((itm) => itm.frontmatter.category))
-)
+).sort((a, b) => a.localeCompare(b))
 
 export const categoriesRoutes: Route[] = categories.map((category) => {
 	const slugCategory = slugify(category)

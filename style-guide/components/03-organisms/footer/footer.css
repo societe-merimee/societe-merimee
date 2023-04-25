@@ -7,13 +7,11 @@
 		display: flex;
 		gap: var(--space-0);
 		padding: 0;
+		justify-content: flex-end;
 	}
 	& a {
 		color: var(--clr-neutral-text-shade);
 		font-family: var(--font-prose);
 		font-size: var(--font-size--1);
-	}
-	& li:first-child {
-		margin-inline-end: auto;
 	}
 }

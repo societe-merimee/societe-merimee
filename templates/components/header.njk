@@ -14,25 +14,25 @@
         </button>
         <nav class="mainNav">
             <ul role="list">
-                <li>
-                    <a href="#" class="mainNav_link">
-                        Accueil</a>
-                </li>
-                <li>
-                    <a href="#" class="mainNav_link">Biographie</a>
-                </li>
-                <li>
-                    <a href="#" class="mainNav_link">Séminaires</a>
-                </li>
-                <li>
-                    <a href="#" class="mainNav_link" aria-current="page">Cahiers</a>
-                </li>
-                <li>
-                    <a href="#" class="mainNav_link">Bibliographie</a>
-                </li>
-                <li>
-                    <a href="#" class="mainNav_link">Adaptations</a>
-                </li>
+                {% for route in routes('/*') %}
+                    {% set current="" %}
+                    {% if title == route.data.title %}
+                        {% set current="aria-current='true'" %}
+                    {% endif %}
+                    <li>
+                        <a href="{{ route.url }}" {{ current }} class="mainNav_link">{{ route.data.title | title }}
+                        </a>
+                    </li>
+                {% endfor %}
+                {% for route in routes('/articles/*') %}
+                    {% set current="" %}
+                    {% if title == route.data.title or category == route.data.title %}
+                        {% set current="aria-current='true'" %}
+                    {% endif %}
+                    <li>
+                        <a href="{{ route.url }}" {{ current }} class="mainNav_link">{{ route.data.title | title }}</a>
+                    </li>
+                {% endfor %}
             </ul>
         </nav>
     </header>

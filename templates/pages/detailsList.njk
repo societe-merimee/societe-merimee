@@ -1,22 +1,23 @@
 {% extends 'layouts/base.njk' %}
 {% block content %}
     <main class="flow region wrapper" id="main">
-        <h1>Cahiers Mérimée</h1>
+        <h1>{{ title |title }}</h1>
         <article class="flow">
             <section>
                 {{ description | safe }}
             </section>
             <section>
-                {% for cahier in cahiers %}
-                    {# {{ seminar|dump }} #}
+                {% for itm in list %}
                     <details-utils animate>
                         <details class="cahier">
-                            <summary>{{ cahier.title }}</summary>
+                            <summary>{{ itm.title }}</summary>
                             <div class="details_content region flow">
-                                {{ cahier.description | safe }}
-                                <footer>
-                                    <a href="{{ cahier.url }}" target="_blank" class="btn">Commander</a>
-                                </footer>
+                                {{ itm.description | safe }}
+                                {% if itm.url %}
+                                    <footer>
+                                        <a href="{{ itm.url }}" target="_blank" class="btn">Commander</a>
+                                    </footer>
+                                {% endif %}
                             </div>
                         </details>
                     </details-utils>

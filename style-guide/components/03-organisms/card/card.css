@@ -15,6 +15,6 @@
 .card:nth-last-child(-n + 3):first-child,
 .card:nth-last-child(-n + 3):first-child ~ .card {
 	grid-column: 1 / -1;
-	--wrapper-size: var(--main-width);
+	max-inline-size: var(--main-width);
 	margin-inline: auto;
 }

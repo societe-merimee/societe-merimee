@@ -7,6 +7,7 @@ import type {
 	Cahiers,
 } from '../types'
 import { parse as parseMd } from 'marked'
+import { sortBydate } from '../utils'
 
 const rawNews = JSON.parse(readFileSync('content/lists/news.json', 'utf-8'))
 	.news as NewsList
@@ -37,9 +38,7 @@ export const seminars = rawSeminars
 		...itm,
 		description: parseMd(itm.description),
 	}))
-	.sort((a, b) => {
-		return Number(new Date(b.date)) - Number(new Date(a.date))
-	})
+	.sort(sortBydate)
 export const rawCahiers = JSON.parse(
 	readFileSync('content/lists/cahiers.json', 'utf-8')
 ).cahiers as Cahiers

@@ -23,26 +23,6 @@
                     </div>
                 </article>
             {% endfor %}
-            {% for article in articles %}
-                <article class="card flow with-sidebar ">
-                    <picture>
-                        <img src="{{ article.thumbnail.image }}" alt="{{ article.thumbnail.alt }}"/>
-                    </picture>
-                    <div class="card_content flow">
-                        <h3>
-                            <a href="{{ article.url }}">
-                                {{ article.title | capitalize }}
-                            </a>
-                        </h3>
-                        <p>
-                            {{ article.resume | truncate(150,true,"...") }}
-                        </p>
-                        <a href="{{ article.url }}">
-                            lire l'article
-                        </a>
-                    </div>
-                </article>
-            {% endfor %}
         </section>
     </main>
 {% endblock %}
