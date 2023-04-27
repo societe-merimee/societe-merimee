@@ -36,7 +36,7 @@ export const routes = () =>
 			url: '/seminaires/',
 			template: 'pages/detailsList.njk',
 			data: {
-				title: 'seminaires',
+				title: 'séminaires',
 				list: seminars,
 				description: seminarsDescription,
 			},
@@ -54,7 +54,7 @@ export const routes = () =>
 			url: '/bibliographie/',
 			template: 'pages/biblio.njk',
 			data: {
-				title: 'bibliographies',
+				title: 'bibliographie',
 				worksBiblio,
 				criticalBiblio,
 			},
