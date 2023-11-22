@@ -31,8 +31,8 @@ resume: >-
 category: actualités
 date: 2023-04-17T14:09:21.257Z
 thumbnail:
-  alt: une fausse image
-  image: blob:https://merimee.netlify.app/aebf532c-b858-4a94-8a2a-894ffb507133
+  alt: couverture du livre
+  image: https://www.fabula.org/actualites/documents/82931.jpg.webp
 ---
 ## Naissance
 
