@@ -2,13 +2,13 @@ Cette revue, ouverte à des orientations et disciplines diverses, vise à faire 
 
 Directrice de publication
 
-\    Antonia FONYI (CNRS/ITEM)
+* Antonia FONYI (CNRS/ITEM)
 
 Secrétaire de rédaction
 
-\    Anne GEISLER (Université Evry-Val d'Essonne)
+* Anne GEISLER (Université Evry-Val d'Essonne)
 
-Comité éditorial: 
+Comité éditorial
 
 * Françoise BERCE (Direction du Patrimoine)
 * Xavier BOUDENET (Université Rennes 2)
