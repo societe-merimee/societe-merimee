@@ -1,133 +1,216 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+    name: git-gateway
+    branch: main # Branch to update (optional; defaults to master)
 # when using the default proxy server port
 # local_backend: true
-media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: 'public/images/uploads' # Media files will be stored in the repo under static/images/uploads
+public_folder: '/images/uploads' # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-    - label: "Accueil"
-      name: "home"
-      file: "content/pages/home.md"
-      fields:
-        - {label: Description de la société, name: body, widget: markdown}
-    - label: "Cahiers"
-      name: "cahiers"
-      file: "content/pages/cahiers.md"
-      fields:
-        - {label: Description de la revue, name: body, widget: markdown}
-    - label: "Séminaires"
-      name: "seminars"
-      file: "content/pages/seminars.md"
-      fields:
-        - {label: Description globale des séminaires, name: body, widget: markdown}
-    - label: "Biographie"
-      name: "biography"
-      file: "content/pages/biography.md"
-      fields:
-        - {label: "Portrait", name: "picture", widget: "image"}
-        - {label: "Biographie", name: body, widget: markdown}
-  - name: "blog"
-    label: "Blog"
-    create: true
-    folder: "content/blog"
-    slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
-    fields:
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Résumé", name: "resume", widget: "text"}
-      - {label: "Catégorie", name: "category", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", picker_utc: false, time_format: ""}
-      - label: "Image de couverture"
-        name: "thumbnail"
-        widget: "object"
-        summary: '{{field.image}}'
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Texte alternatif", name: "alt", widget: "string"}
-      - {label: "Article", name: "body", widget: "markdown"}
-  - name: "lists"
-    label: "Listes"
-    files:
-      - label: "Actualités"
-        name: "news"
-        file: "content/lists/news.json"
-        fields:
-          - label: Actualités
-            name: news
-            widget: list
-            label_singular: actualité
-            add_to_top: true
+    - name: 'pages'
+      label: 'Pages'
+      files:
+          - label: 'Accueil'
+            name: 'home'
+            file: 'content/pages/home.md'
             fields:
-              - {label: Titre, name: title, widget: string}
-              - label: "Image de couverture"
-                name: "thumbnail"
-                widget: "object"
-                summary: '{{fields.image}}'
-                required: false
-                fields:
-                  - {label: "Image", name: "image", widget: "image"}    
-                  - {label: "Texte alternatif", name: "alt", widget: "string"}
-              - {label: Date, name: date, widget: datetime, date_format: "DD.MM.YYYY", picker_utc: false, time_format: ""}
-              - {label: Description, name: description, widget: markdown}
-      - label: "Cahiers"
-        name: "cahiers"
-        file: "content/lists/cahiers.json"
-        fields:
-          - label: Cahiers
-            name: cahiers
-            label_singular: cahier
-            add_to_top: true
-            widget: list
-            fields: 
-              - {label: Titre, name: title, widget: string}
-              - {label: description, name: description, widget: markdown}
-              - {label: lien, name: url, widget: string}
-      - label: "Séminaires"
-        name: "seminars"
-        file: "content/lists/seminars.json"
-        fields:
-          - label: Séminaires
-            name: "seminars"
-            label_singular: séminaire
-            add_to_top: true
-            widget: list
+                - {
+                      label: Description de la société,
+                      name: body,
+                      widget: markdown,
+                  }
+          - label: 'Cahiers'
+            name: 'cahiers'
+            file: 'content/pages/cahiers.md'
             fields:
-              - {label: Titre, name: title, widget: string}
-              - {label: Date, name: date, widget: datetime, date_format: "DD.MM.YYYY", picker_utc: false, time_format: ""}
-              - {label: Description, name: description, widget: markdown}
-      - label: "Études critiques"
-        name: "critical-bibliography"
-        file: "content/lists/critical-bibliography.json"
-        fields:
-          - label: Entrées
-            name: "entries"
-            label_singular: entrée
-            widget: list
-            summary: "{{fields.author}} {{fields.title1}}  {{fields.title2}} {{fields.location}} {{fields.editor}} {{fields.date}}"
+                - {
+                      label: Description de la revue,
+                      name: body,
+                      widget: markdown,
+                  }
+          - label: 'Séminaires'
+            name: 'seminars'
+            file: 'content/pages/seminars.md'
             fields:
-              - {label: Auteur, name: author, widget: string}
-              - {label: Titre principal, name: title1, widget: string}
-              - {label: Titre secondaire, name: title2, widget: string, required: false}
-              - {label: Lieu, name: location, widget: string, required: false}
-              - {label: Éditeur, name: editor, widget: string}
-              - {label: Date, name: date, widget: string}
-      - label: "Œuvres"
-        name: "works-bibliography"
-        file: "content/lists/works-bibliography.json"
-        fields:
-          - label: Entrées
-            name: "entries"
-            label_singular: entrée
-            widget: list
-            summary: "{{fields.title1}} {{fields.title2}} {{fields.scientificEditor}} {{fields.location}} {{fields.editor}} {{fields.date}}"
+                - {
+                      label: Description globale des séminaires,
+                      name: body,
+                      widget: markdown,
+                  }
+          - label: 'Biographie'
+            name: 'biography'
+            file: 'content/pages/biography.md'
             fields:
-              - {label: Titre principal, name: title1, widget: string}
-              - {label: Titre secondaire, name: title2, widget: string, required: false}
-              - {label: Éditeur scientifique, name: scientificEditor, widget: string, required: false}
-              - {label: Lieu, name: location, widget: string, required: false}
-              - {label: Maison d'édition, name: editor, widget: string}
-              - {label: Date, name: date, widget: string}              
-
+                - { label: 'Portrait', name: 'picture', widget: 'image' }
+                - { label: 'Biographie', name: body, widget: markdown }
+    - name: 'blog'
+      label: 'Blog'
+      create: true
+      folder: 'content/blog'
+      slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
+      fields:
+          - { label: 'Titre', name: 'title', widget: 'string' }
+          - { label: 'Résumé', name: 'resume', widget: 'text' }
+          - { label: 'Catégorie', name: 'category', widget: 'string' }
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                date_format: 'DD.MM.YYYY',
+                picker_utc: false,
+                time_format: '',
+            }
+          - label: 'Image de couverture'
+            name: 'thumbnail'
+            widget: 'object'
+            summary: '{{field.image}}'
+            fields:
+                - { label: 'Image', name: 'image', widget: 'image' }
+                - { label: 'Texte alternatif', name: 'alt', widget: 'string' }
+          - { label: 'Article', name: 'body', widget: 'markdown' }
+    - name: 'lists'
+      label: 'Listes'
+      files:
+          - label: 'Actualités'
+            name: 'news'
+            file: 'content/lists/news.json'
+            fields:
+                - label: Actualités
+                  name: news
+                  widget: list
+                  label_singular: actualité
+                  add_to_top: true
+                  fields:
+                      - { label: Titre, name: title, widget: string }
+                      - label: 'Image de couverture'
+                        name: 'thumbnail'
+                        widget: 'object'
+                        summary: '{{fields.image}}'
+                        required: false
+                        fields:
+                            - {
+                                  label: 'Image',
+                                  name: 'image',
+                                  widget: 'image',
+                                  required: false,
+                              }
+                            - {
+                                  label: 'Texte alternatif',
+                                  name: 'alt',
+                                  widget: 'string',
+                                  required: false,
+                              }
+                      - {
+                            label: Date,
+                            name: date,
+                            widget: datetime,
+                            date_format: 'DD.MM.YYYY',
+                            picker_utc: false,
+                            time_format: '',
+                        }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+          - label: 'Cahiers'
+            name: 'cahiers'
+            file: 'content/lists/cahiers.json'
+            fields:
+                - label: Cahiers
+                  name: cahiers
+                  label_singular: cahier
+                  add_to_top: true
+                  widget: list
+                  fields:
+                      - { label: Titre, name: title, widget: string }
+                      - {
+                            label: description,
+                            name: description,
+                            widget: markdown,
+                        }
+                      - { label: lien, name: url, widget: string }
+          - label: 'Séminaires'
+            name: 'seminars'
+            file: 'content/lists/seminars.json'
+            fields:
+                - label: Séminaires
+                  name: 'seminars'
+                  label_singular: séminaire
+                  add_to_top: true
+                  widget: list
+                  fields:
+                      - { label: Titre, name: title, widget: string }
+                      - {
+                            label: Date,
+                            name: date,
+                            widget: datetime,
+                            date_format: 'DD.MM.YYYY',
+                            picker_utc: false,
+                            time_format: '',
+                        }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+          - label: 'Études critiques'
+            name: 'critical-bibliography'
+            file: 'content/lists/critical-bibliography.json'
+            fields:
+                - label: Entrées
+                  name: 'entries'
+                  label_singular: entrée
+                  widget: list
+                  summary: '{{fields.author}} {{fields.title1}}  {{fields.title2}} {{fields.location}} {{fields.editor}} {{fields.date}}'
+                  fields:
+                      - { label: Auteur, name: author, widget: string }
+                      - { label: Titre principal, name: title1, widget: string }
+                      - {
+                            label: Titre secondaire,
+                            name: title2,
+                            widget: string,
+                            required: false,
+                        }
+                      - {
+                            label: Lieu,
+                            name: location,
+                            widget: string,
+                            required: false,
+                        }
+                      - { label: Éditeur, name: editor, widget: string }
+                      - { label: Date, name: date, widget: string }
+          - label: 'Œuvres'
+            name: 'works-bibliography'
+            file: 'content/lists/works-bibliography.json'
+            fields:
+                - label: Entrées
+                  name: 'entries'
+                  label_singular: entrée
+                  widget: list
+                  summary: '{{fields.title1}} {{fields.title2}} {{fields.scientificEditor}} {{fields.location}} {{fields.editor}} {{fields.date}}'
+                  fields:
+                      - { label: Titre principal, name: title1, widget: string }
+                      - {
+                            label: Titre secondaire,
+                            name: title2,
+                            widget: string,
+                            required: false,
+                        }
+                      - {
+                            label: Éditeur scientifique,
+                            name: scientificEditor,
+                            widget: string,
+                            required: false,
+                        }
+                      - {
+                            label: Lieu,
+                            name: location,
+                            widget: string,
+                            required: false,
+                        }
+                      - {
+                            label: Maison d'édition,
+                            name: editor,
+                            widget: string,
+                        }
+                      - { label: Date, name: date, widget: string }
