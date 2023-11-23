@@ -4,11 +4,11 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"pnpm": "pnpm",
+		"npm": "npm",
 		"dev:site": "vite",
 		"dev:style-guide": "node fractal.cjs",
-		"local-cms": "pnpx netlify-cms-proxy-server",
-		"dev": "concurrently \"pnpm dev:site\" \"pnpm dev:style-guide\"",
+		"local-cms": "npx netlify-cms-proxy-server",
+		"dev": "concurrently \"npm dev:site\" \"npm dev:style-guide\"",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
 		"format": "prettier . --write"
