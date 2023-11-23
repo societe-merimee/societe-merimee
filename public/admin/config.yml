@@ -161,6 +161,7 @@ collections:
                   name: 'entries'
                   label_singular: entrée
                   widget: list
+                  add_to_top: true
                   summary: '{{fields.author}} {{fields.title1}}  {{fields.title2}} {{fields.location}} {{fields.editor}} {{fields.date}}'
                   fields:
                       - { label: Auteur, name: author, widget: string }
@@ -187,6 +188,7 @@ collections:
                   name: 'entries'
                   label_singular: entrée
                   widget: list
+                  add_to_top: true
                   summary: '{{fields.title1}} {{fields.title2}} {{fields.scientificEditor}} {{fields.location}} {{fields.editor}} {{fields.date}}'
                   fields:
                       - { label: Titre principal, name: title1, widget: string }
