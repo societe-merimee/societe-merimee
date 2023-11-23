@@ -15,7 +15,7 @@
                             <details>
                                 <summary>{{ item.title }}</summary>
                                 <div class="details_content with-sidebar region">
-                                    {% if item.thumbnail %}
+                                    {% if (item.thumbnail) and (item.thumbnail.image) %}
                                         <picture>
                                             <img src="{{ item.thumbnail.image }}" alt="{{ item.thumbnail.alt }}"/>
                                         </picture>
