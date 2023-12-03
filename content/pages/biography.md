@@ -23,12 +23,4 @@ De nos jours, l’œuvre de Mérimée rencontre un accueil étrange. L’écriva
 
 En 1903, le centenaire de la naissance de Mérimée a passé inaperçu. En 1920, cinquantenaire de sa mort, la presse a célébré l’écrivain, donnant l’impulsion à d’importants travaux d’édition et de recherche. En 1953, la Bibliothèque nationale a présenté une grande exposition de plus de cinq cents pièces. En 1970, les archéologues surtout lui ont rendu hommage par une exposition et par diverses publications. 2003 est le bicentenaire de sa naissance. Le temps est venu, peut-être, de reconnaître la pluralité des dimensions de son œuvre et sa valeur.
 
- 
-
 Antonia Fonyi
-
-Lorem ipsum dolor sit amet, Prosper Mérimée adipiscing elit. Etiam cahiers consectetur est. Proin id nulla venenatis, hendrerit magna eu, tristique mi. Curabitur varius bibendum lorem, vel interdum sem luctus vehicula. Sed séminaires viverra elit sit amet tempor. Proin tellus arcu, cahiers vitae ultrices ut, consectetur quis turpis. Nunc ultrices sagittis elementum. Sed eget bibliographie enim, ut séminaires odio. Sed sit amet luctus felis. Proin tortor mauris, sollicitudin in facilisis nec, eleifend id turpis. Aenean metus finibus semper. Adaptations sit amet eleifend magna.
-
-![placeholder](/images/uploads/imgplaceholder.png "Image vide")
-
-Lorem ipsum dolor sit amet, Prosper Mérimée adipiscing elit. Etiam cahiers consectetur est. Proin id nulla venenatis, hendrerit magna eu, tristique mi. Curabitur varius bibendum lorem, vel interdum sem luctus vehicula. Sed séminaires viverra elit sit amet tempor. Proin tellus arcu, cahiers vitae ultrices ut, consectetur quis turpis. Nunc ultrices sagittis elementum. Sed eget bibliographie enim, ut séminaires odio. Sed sit amet luctus felis. Proin tortor mauris, sollicitudin in facilisis nec, eleifend id turpis. Aenean metus finibus semper. Adaptations sit amet eleifend magna.
