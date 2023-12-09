@@ -16,6 +16,20 @@
 		text-align: center;
 		text-decoration: none;
 	}
+	& span {
+		display: none;
+	}
+}
+
+@media screen AND (max-width: 600px) {
+	.header {
+		& svg {
+			display: none;
+		}
+		& span {
+			display: block;
+		}
+	}
 }
 
 sausage-links {
