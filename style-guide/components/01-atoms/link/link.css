@@ -6,12 +6,12 @@ a {
 		font-family: var(--font-display);
 		color: var(--clr-neutral-text-shade);
 		text-decoration-color: var(--clr-accent-surface-solid);
-		text-underline-offset: 1px;
+		text-underline-offset: 2px;
 
 		&:where(:hover, :focus-within) {
 			color: var(--clr-accent-surface-solid);
 			text-decoration-color: var(--clr-neutral-text);
-			text-underline-offset: 2px;
+			text-underline-offset: 3px;
 		}
 	}
 }
