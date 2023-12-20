@@ -1,0 +1,12 @@
+---
+title: Critique littéraire
+resume: Cervantès, Byron, Gogol...
+category: Notices
+date: 2023-12-20T19:40:28.420Z
+thumbnail:
+    image: /images/uploads/van-gogh-livres.jpg
+    alt: Vincent Van Gogh, Les Livres jaunes, 1887
+---
+
+Mérimée s’est prononcé sur de très nombreux auteurs, sur Cervantès et Byron, sur Nodier, Ampère, Stendhal et Agrippa d’Aubigné, sur Gogol, Tourgueniev et Pouchkine… Il peut passer à juste titre comme le découvreur de la littérature russe en France, mais aussi comme le spécialiste de Cervantès. Sa connaissance des langues étrangères lui permettait d’aborder des textes méconnus et de les porter à la connaissance du public. Un des premiers, il a préconisé et pratiqué la littérature comparée.
+Mais il est aussi celui qui a porté des jugements abrupts et souvent injustes sur certains grands écrivains de son temps, et cette sévérité semble s’être accrue à mesure qu’il avançait en âge. Il est ainsi passé complètement à côté du talent de Flaubert, de Hugo ou de Baudelaire. Lui-même considérait sa tâche de critique d’art avec méfiance : « Je suis particulièrement impropre à la critique littéraire. Je ne sais que dire bien ou mal, mais la question quo modo m’embarrasse » . En fait on observe une grande cohérence dans sa critique littéraire. Il jugeait en effet les œuvres à partir des principes simples qu’il prétendait faire siens : la clarté, la rigueur de la composition, la recherche d’un style personnel, la simplicité et le naturel. C’est ainsi qu’il reprochait à Nodier le caractère artificiel de certains de ses personnages, à Gogol le caractère outré de ses satires, à Hugo ou à Flaubert leur emphase. Inversement, il louait les écrivains qui s’appliquaient à décrire fidèlement les détails vrais – comme Agrippa d’Aubigné ou Tourgueniev. Il découvrait chez l’un « un rare talent d’observation (…) jusque dans les plus petits détails » , il voyait en l’autre un peintre du cœur humain . Mais plus que tout, il admirait les écrivains qui savaient être concis, qui renfermaient « dans leurs vers plus de sens que de mots » . Byron et Pouchkine faisaient partie de ceux-là, le second surtout qu’il considérait comme un écrivain majeur et au sujet duquel il confiait à Jenny Dacquin : il y a chez Pouchkine « des choses magnifiques, tout à fait selon mon cœur, c’est-à-dire grecques par la vérité et la simplicité » .

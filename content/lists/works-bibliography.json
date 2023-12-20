@@ -1,79 +1,168 @@
 {
 	"entries": [
 		{
-			"title1": "Mateo Falcone",
-			"title2": "Mosaïque",
+			"title1": "Nouvelles",
+			"scientificEditor": "M. Crouzet",
 			"location": "Paris",
-			"editor": "La revue française",
-			"date": "1833",
-			"scientificEditor": "Jacques Oberson"
+			"editor": "Imprimerie nationale",
+			"date": "1986"
 		},
 		{
-			"title1": "Les Misérables",
-			"title2": "Tome I",
-			"location": "Lyon",
-			"editor": "Les éditions lyonnaises",
-			"date": "1862",
-			"scientificEditor": "MARTIN Sophie"
+			"title1": "Romans et Nouvelles",
+			"scientificEditor": "M. Parturier",
+			"location": "Paris",
+			"editor": "Garnier",
+			"date": "1967"
 		},
 		{
-			"title1": "Le Rouge et le Noir",
-			"location": "Marseille",
-			"editor": "Le journal marseillais",
-			"date": "1830",
-			"scientificEditor": "BLANC Julien"
+			"title1": "Nouvelles complètes",
+			"scientificEditor": "P. Josserand",
+			"location": "Paris",
+			"editor": "Le Livre de Poche",
+			"date": "1964-1965"
 		},
 		{
-			"title1": "La Peste",
-			"location": "Toulouse",
-			"editor": "Les éditions toulousaines",
-			"date": "1947",
-			"scientificEditor": "DUBOIS Marie"
+			"title1": "Romans et Nouvelles",
+			"scientificEditor": "H. Martineau",
+			"location": "Paris",
+			"editor": "Gallimard",
+			"date": "1954"
 		},
 		{
-			"title1": "Les Trois Mousquetaires",
-			"location": "Bordeaux",
-			"editor": "Les éditions bordelaises",
-			"date": "1844"
+			"title1": "Contes étranges",
+			"scientificEditor": "A. Caillois",
+			"location": "Paris",
+			"editor": "Editions Vialetay",
+			"date": "1972"
 		},
 		{
-			"title1": "Les Fleurs du Mal",
-			"location": "Nantes",
-			"editor": "Les éditions nantaises",
-			"date": "1857"
+			"title1": "Carmen, Colomba et autres nouvelles",
+			"scientificEditor": "A. Pieyre de Mandiargues",
+			"location": "Paris",
+			"editor": "Club des Classiques",
+			"date": "1970"
 		},
 		{
-			"title1": "L'Assommoir",
-			"location": "Lille",
-			"editor": "Le journal lillois",
-			"date": "1877",
-			"scientificEditor": "LEROUX Antoine"
+			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
+			"scientificEditor": "M. Parturier",
+			"location": "Paris",
+			"editor": "Les Belles Lettres",
+			"date": "1930"
 		},
 		{
-			"title1": "Germinal",
-			"location": "Strasbourg",
-			"editor": "Les éditions strasbourgeoises",
-			"date": "1885",
-			"scientificEditor": "MOREAU Claire"
+			"title1": "La Guzla, Dernières Nouvelles",
+			"scientificEditor": "E. Marsan",
+			"location": "Paris",
+			"editor": "Le Divan",
+			"date": "1928"
 		},
 		{
-			"title1": "Madame Bovary",
-			"editor": "Les éditions niçoises",
-			"date": "1856",
-			"scientificEditor": "ROUSSEAU Bazile"
+			"title1": "Dernières nouvelles",
+			"scientificEditor": "L. Lemonnier",
+			"location": "Paris",
+			"editor": "Champion",
+			"date": "1929"
 		},
 		{
-			"title1": "Voyage au centre de la Terre",
-			"location": "Rouen",
-			"editor": "Les éditions rouennaises",
-			"date": "1864"
+			"title1": "Lokis, la dernière nouvelle de P. Mérimée",
+			"scientificEditor": "R. Schmittlein",
+			"location": "Bade",
+			"editor": "Arts et Sciences",
+			"date": "1949"
 		},
 		{
-			"title1": "Le Tour du Monde en 80 Jours",
-			"location": "Reims",
-			"editor": "Les éditions rémoises",
-			"date": "1873",
-			"scientificEditor": "GIRARD Pierre"
+			"title1": "La Vénus d'Ille et autres nouvelles",
+			"location": "Paris",
+			"editor": "Garnier-Flammarion",
+			"date": "1982"
+		},
+		{
+			"title1": "Carmen et quelques autres nouvelles",
+			"scientificEditor": "V. Larbaud",
+			"location": "Paris",
+			"editor": "Payot",
+			"date": "1927"
+		},
+		{
+			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
+			"scientificEditor": "G. d'Houville, A. Dupouy",
+			"location": "Paris",
+			"editor": "Champion",
+			"date": "1927"
+		},
+		{
+			"title1": "Les Ames du purgatoire, Carmen",
+			"location": "Paris",
+			"editor": "Garnier-Flammarion",
+			"date": "1973"
+		},
+		{
+			"title1": "Colomba",
+			"location": "Paris",
+			"editor": "Garnier-Flammarion",
+			"date": "1964"
+		},
+		{
+			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain, La Double Méprise",
+			"scientificEditor": "E. Marsan",
+			"location": "Paris",
+			"editor": "Le Divan",
+			"date": "1927"
+		},
+		{
+			"title1": "Colomba",
+			"scientificEditor": "P. Jourda",
+			"location": "Paris, Genève",
+			"editor": "Droz",
+			"date": "1947"
+		},
+		{
+			"title1": "Colomba, La Vénus d'Isle, Les Ames du purgatoire",
+			"location": "Paris",
+			"scientificEditor": "E. Marsan",
+			"editor": "Le Divan",
+			"date": "1828"
+		},
+		{
+			"title1": "La Double Méprise",
+			"scientificEditor": "E. Jaloux",
+			"location": "Paris",
+			"editor": "Devambez",
+			"date": "1922"
+		},
+		{
+			"title1": "Tamango, Mateo Falcone et autres nouvelles",
+			"location": "Paris",
+			"editor": "Garnier-Flammarion",
+			"date": "1983"
+		},
+		{
+			"title1": "Mosaïque",
+			"scientificEditor": "M. Levaillant",
+			"location": "Paris",
+			"editor": "Champion",
+			"date": "1933"
+		},
+		{
+			"title1": "Mosaïque",
+			"scientificEditor": "E. Marsan",
+			"location": "Paris",
+			"editor": "Le Divan",
+			"date": "1930"
+		},
+		{
+			"title1": "La Carosse du Saint-Sacrement, Lettres d'Espagne, Carmen, L'Enlèvement de la redoute, Tamango, Le Vase étrusque, La Partie de trictrac ",
+			"scientificEditor": "M. Levaillant",
+			"location": "Paris",
+			"editor": "Larousse",
+			"date": "1927"
+		},
+		{
+			"title1": "Mateo Falcone, Colomba, Vision de Charles XI, La Vénus d'Isle",
+			"scientificEditor": "M. Levaillant",
+			"location": "Paris",
+			"editor": "Larousse",
+			"date": "1927"
 		}
 	]
 }
