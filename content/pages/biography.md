@@ -1,5 +1,5 @@
 ---
-picture: /images/uploads/clara_gazul.jpeg
+picture: /images/uploads/prosper-merimee_d0fc0b7572eb89376e123409eb867b5a.jpg
 ---
 Prosper Mérimée a laissé une grande œuvre. Dix-huit nouvelles, dont une demi-douzaine comptent parmi les balises de l’histoire littéraire, et des centaines d’édifices, arcs de triomphe, cathédrales, palais, avec des statues, des fresques, des tapisseries, des retables, qui font vivre le passé grâce à l’inspecteur général des Monuments historiques. Traducteur, il a fait connaître des œuvres de Pouchkine et de Gogol aux lecteurs français. Historien, il a été le premier à fonder une monographie de Pèdre Ier de Castille sur des documents des archives de Madrid et de Barcelone. Cette inscription dans plusieurs domaines culturels assure une rare originalité à son œuvre, en même temps qu’elle provoque la réticence de nombreux commentateurs à l’égard de la vocation plurielle de l’auteur.
 
