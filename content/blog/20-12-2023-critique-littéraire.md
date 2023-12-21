@@ -1,7 +1,7 @@
 ---
 title: Critique littéraire
 resume: Cervantès, Byron, Gogol...
-category: Notices
+category: Dictionnaire
 date: 2023-12-20T19:40:28.420Z
 thumbnail:
   image: /images/uploads/van-gogh-livres.jpg
