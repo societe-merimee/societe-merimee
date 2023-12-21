@@ -106,12 +106,6 @@
       "date": "1949"
     },
     {
-      "title1": "La Vénus d'Ille et autres nouvelles",
-      "location": "Paris",
-      "editor": "Garnier-Flammarion",
-      "date": "1982"
-    },
-    {
       "title1": "Carmen et quelques autres nouvelles",
       "scientificEditor": "V. Larbaud",
       "location": "Paris",
@@ -129,7 +123,8 @@
       "title1": "Les Ames du purgatoire, Carmen",
       "location": "Paris",
       "editor": "Garnier-Flammarion",
-      "date": "1973"
+      "date": "1973",
+      "scientificEditor": "J. Decottignies"
     },
     {
       "title1": "Colomba",
