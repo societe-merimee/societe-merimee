@@ -1,168 +1,168 @@
 {
-	"entries": [
-		{
-			"title1": "Nouvelles",
-			"scientificEditor": "M. Crouzet",
-			"location": "Paris",
-			"editor": "Imprimerie nationale",
-			"date": "1986"
-		},
-		{
-			"title1": "Romans et Nouvelles",
-			"scientificEditor": "M. Parturier",
-			"location": "Paris",
-			"editor": "Garnier",
-			"date": "1967"
-		},
-		{
-			"title1": "Nouvelles complètes",
-			"scientificEditor": "P. Josserand",
-			"location": "Paris",
-			"editor": "Le Livre de Poche",
-			"date": "1964-1965"
-		},
-		{
-			"title1": "Romans et Nouvelles",
-			"scientificEditor": "H. Martineau",
-			"location": "Paris",
-			"editor": "Gallimard",
-			"date": "1954"
-		},
-		{
-			"title1": "Contes étranges",
-			"scientificEditor": "A. Caillois",
-			"location": "Paris",
-			"editor": "Editions Vialetay",
-			"date": "1972"
-		},
-		{
-			"title1": "Carmen, Colomba et autres nouvelles",
-			"scientificEditor": "A. Pieyre de Mandiargues",
-			"location": "Paris",
-			"editor": "Club des Classiques",
-			"date": "1970"
-		},
-		{
-			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
-			"scientificEditor": "M. Parturier",
-			"location": "Paris",
-			"editor": "Les Belles Lettres",
-			"date": "1930"
-		},
-		{
-			"title1": "La Guzla, Dernières Nouvelles",
-			"scientificEditor": "E. Marsan",
-			"location": "Paris",
-			"editor": "Le Divan",
-			"date": "1928"
-		},
-		{
-			"title1": "Dernières nouvelles",
-			"scientificEditor": "L. Lemonnier",
-			"location": "Paris",
-			"editor": "Champion",
-			"date": "1929"
-		},
-		{
-			"title1": "Lokis, la dernière nouvelle de P. Mérimée",
-			"scientificEditor": "R. Schmittlein",
-			"location": "Bade",
-			"editor": "Arts et Sciences",
-			"date": "1949"
-		},
-		{
-			"title1": "La Vénus d'Ille et autres nouvelles",
-			"location": "Paris",
-			"editor": "Garnier-Flammarion",
-			"date": "1982"
-		},
-		{
-			"title1": "Carmen et quelques autres nouvelles",
-			"scientificEditor": "V. Larbaud",
-			"location": "Paris",
-			"editor": "Payot",
-			"date": "1927"
-		},
-		{
-			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
-			"scientificEditor": "G. d'Houville, A. Dupouy",
-			"location": "Paris",
-			"editor": "Champion",
-			"date": "1927"
-		},
-		{
-			"title1": "Les Ames du purgatoire, Carmen",
-			"location": "Paris",
-			"editor": "Garnier-Flammarion",
-			"date": "1973"
-		},
-		{
-			"title1": "Colomba",
-			"location": "Paris",
-			"editor": "Garnier-Flammarion",
-			"date": "1964"
-		},
-		{
-			"title1": "Carmen, Arsène Guillot, L'Abbé Aubain, La Double Méprise",
-			"scientificEditor": "E. Marsan",
-			"location": "Paris",
-			"editor": "Le Divan",
-			"date": "1927"
-		},
-		{
-			"title1": "Colomba",
-			"scientificEditor": "P. Jourda",
-			"location": "Paris, Genève",
-			"editor": "Droz",
-			"date": "1947"
-		},
-		{
-			"title1": "Colomba, La Vénus d'Isle, Les Ames du purgatoire",
-			"location": "Paris",
-			"scientificEditor": "E. Marsan",
-			"editor": "Le Divan",
-			"date": "1828"
-		},
-		{
-			"title1": "La Double Méprise",
-			"scientificEditor": "E. Jaloux",
-			"location": "Paris",
-			"editor": "Devambez",
-			"date": "1922"
-		},
-		{
-			"title1": "Tamango, Mateo Falcone et autres nouvelles",
-			"location": "Paris",
-			"editor": "Garnier-Flammarion",
-			"date": "1983"
-		},
-		{
-			"title1": "Mosaïque",
-			"scientificEditor": "M. Levaillant",
-			"location": "Paris",
-			"editor": "Champion",
-			"date": "1933"
-		},
-		{
-			"title1": "Mosaïque",
-			"scientificEditor": "E. Marsan",
-			"location": "Paris",
-			"editor": "Le Divan",
-			"date": "1930"
-		},
-		{
-			"title1": "La Carosse du Saint-Sacrement, Lettres d'Espagne, Carmen, L'Enlèvement de la redoute, Tamango, Le Vase étrusque, La Partie de trictrac ",
-			"scientificEditor": "M. Levaillant",
-			"location": "Paris",
-			"editor": "Larousse",
-			"date": "1927"
-		},
-		{
-			"title1": "Mateo Falcone, Colomba, Vision de Charles XI, La Vénus d'Isle",
-			"scientificEditor": "M. Levaillant",
-			"location": "Paris",
-			"editor": "Larousse",
-			"date": "1927"
-		}
-	]
+  "entries": [
+    {
+      "title1": "Nouvelles",
+      "scientificEditor": "M. Crouzet",
+      "location": "Paris",
+      "editor": "Imprimerie nationale",
+      "date": "1986"
+    },
+    {
+      "title1": "Romans et Nouvelles",
+      "scientificEditor": "M. Parturier",
+      "location": "Paris",
+      "editor": "Garnier",
+      "date": "1967"
+    },
+    {
+      "title1": "Nouvelles complètes",
+      "scientificEditor": "P. Josserand",
+      "location": "Paris",
+      "editor": "Le Livre de Poche",
+      "date": "1964-1965"
+    },
+    {
+      "title1": "Romans et Nouvelles",
+      "scientificEditor": "H. Martineau",
+      "location": "Paris",
+      "editor": "Gallimard",
+      "date": "1954"
+    },
+    {
+      "title1": "Contes étranges",
+      "scientificEditor": "A. Caillois",
+      "location": "Paris",
+      "editor": "Editions Vialetay",
+      "date": "1972"
+    },
+    {
+      "title1": "Carmen, Colomba et autres nouvelles",
+      "scientificEditor": "A. Pieyre de Mandiargues",
+      "location": "Paris",
+      "editor": "Club des Classiques",
+      "date": "1970"
+    },
+    {
+      "title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
+      "scientificEditor": "M. Parturier",
+      "location": "Paris",
+      "editor": "Les Belles Lettres",
+      "date": "1930"
+    },
+    {
+      "title1": "La Guzla, Dernières Nouvelles",
+      "scientificEditor": "E. Marsan",
+      "location": "Paris",
+      "editor": "Le Divan",
+      "date": "1928"
+    },
+    {
+      "title1": "Dernières nouvelles",
+      "scientificEditor": "L. Lemonnier",
+      "location": "Paris",
+      "editor": "Champion",
+      "date": "1929"
+    },
+    {
+      "title1": "Lokis, la dernière nouvelle de P. Mérimée",
+      "scientificEditor": "R. Schmittlein",
+      "location": "Bade",
+      "editor": "Arts et Sciences",
+      "date": "1949"
+    },
+    {
+      "title1": "La Vénus d'Ille et autres nouvelles",
+      "location": "Paris",
+      "editor": "Garnier-Flammarion",
+      "date": "1982"
+    },
+    {
+      "title1": "Carmen et quelques autres nouvelles",
+      "scientificEditor": "V. Larbaud",
+      "location": "Paris",
+      "editor": "Payot",
+      "date": "1927"
+    },
+    {
+      "title1": "Carmen, Arsène Guillot, L'Abbé Aubain",
+      "scientificEditor": "G. d'Houville, A. Dupouy",
+      "location": "Paris",
+      "editor": "Champion",
+      "date": "1927"
+    },
+    {
+      "title1": "Les Ames du purgatoire, Carmen",
+      "location": "Paris",
+      "editor": "Garnier-Flammarion",
+      "date": "1973"
+    },
+    {
+      "title1": "Colomba",
+      "location": "Paris",
+      "editor": "Garnier-Flammarion",
+      "date": "1964"
+    },
+    {
+      "title1": "Carmen, Arsène Guillot, L'Abbé Aubain, La Double Méprise",
+      "scientificEditor": "E. Marsan",
+      "location": "Paris",
+      "editor": "Le Divan",
+      "date": "1927"
+    },
+    {
+      "title1": "Colomba",
+      "scientificEditor": "P. Jourda",
+      "location": "Paris, Genève",
+      "editor": "Droz",
+      "date": "1947"
+    },
+    {
+      "title1": "Colomba, La Vénus d'Isle, Les Ames du purgatoire",
+      "location": "Paris",
+      "scientificEditor": "E. Marsan",
+      "editor": "Le Divan",
+      "date": "1928"
+    },
+    {
+      "title1": "La Double Méprise",
+      "scientificEditor": "E. Jaloux",
+      "location": "Paris",
+      "editor": "Devambez",
+      "date": "1922"
+    },
+    {
+      "title1": "Tamango, Mateo Falcone et autres nouvelles",
+      "location": "Paris",
+      "editor": "Garnier-Flammarion",
+      "date": "1983"
+    },
+    {
+      "title1": "Mosaïque",
+      "scientificEditor": "M. Levaillant",
+      "location": "Paris",
+      "editor": "Champion",
+      "date": "1933"
+    },
+    {
+      "title1": "Mosaïque",
+      "scientificEditor": "E. Marsan",
+      "location": "Paris",
+      "editor": "Le Divan",
+      "date": "1930"
+    },
+    {
+      "title1": "La Carosse du Saint-Sacrement, Lettres d'Espagne, Carmen, L'Enlèvement de la redoute, Tamango, Le Vase étrusque, La Partie de trictrac ",
+      "scientificEditor": "M. Levaillant",
+      "location": "Paris",
+      "editor": "Larousse",
+      "date": "1927"
+    },
+    {
+      "title1": "Mateo Falcone, Colomba, Vision de Charles XI, La Vénus d'Isle",
+      "scientificEditor": "M. Levaillant",
+      "location": "Paris",
+      "editor": "Larousse",
+      "date": "1927"
+    }
+  ]
 }
