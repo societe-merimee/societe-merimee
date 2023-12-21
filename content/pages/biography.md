@@ -77,15 +77,11 @@ Il publie des Notes de voyages dans le Midi de la France (1835), dans l’Ouest 
 
 #### Les commissions auxquelles appartient Mérimée
 
-> 10 janvier 1835 : il entre au Comité des Lettres, Philosophie, Sciences et Arts, créé à l'Instruction publique par Guizot.
->
-> 1836 : nommé au Conseil des Bâtiments civils.
->
-> 18 décembre 1837 : Salvandy crée le Comité historique des Arts et Monuments dont le rôle est de publier les documents inédits de l'histoire de France. Mérimée fait partie de la 4ème sous-commission "Arts et Monuments", dirigée par Gasparin, avec Victor Hugo, Ludovic Vitet, Jean-Jacques Ampère, Montalembert, Léon de Laborde, Sainte-Beuve, Charles Lenormant, Le Prévost, Taylor, Didron. Ce comité publie le Bulletin archéologique destiné à dresser l'inventaire des monuments de la France. Mérimée y présente 104 inventaires, 75 rapports, 10 instructions, 4 communications. Ce comité deviendra le Comité des Travaux historiques.
->
-> 29 septembre 1837 : Montalivet, ministre de l'Intérieur, créée la Commission des Monuments historiques pour distribuer les crédits des réparations. Les présidents sont Vatout, puis Vitet. Le secrétaire est Mérimée. Il y siège jusqu'en 1870.
->
-> 1848 : il siège à la Commission des Edifices diocésains.
+* 10 janvier 1835 : il entre au Comité des Lettres, Philosophie, Sciences et Arts, créé à l'Instruction publique par Guizot.
+* 1836 : nommé au Conseil des Bâtiments civils.
+* 18 décembre 1837 : Salvandy crée le Comité historique des Arts et Monuments dont le rôle est de publier les documents inédits de l'histoire de France. Mérimée fait partie de la 4ème sous-commission "Arts et Monuments", dirigée par Gasparin, avec Victor Hugo, Ludovic Vitet, Jean-Jacques Ampère, Montalembert, Léon de Laborde, Sainte-Beuve, Charles Lenormant, Le Prévost, Taylor, Didron. Ce comité publie le Bulletin archéologique destiné à dresser l'inventaire des monuments de la France. Mérimée y présente 104 inventaires, 75 rapports, 10 instructions, 4 communications. Ce comité deviendra le Comité des Travaux historiques.
+* 29 septembre 1837 : Montalivet, ministre de l'Intérieur, créée la Commission des Monuments historiques pour distribuer les crédits des réparations. Les présidents sont Vatout, puis Vitet. Le secrétaire est Mérimée. Il y siège jusqu'en 1870.
+* 1848 : il siège à la Commission des Edifices diocésains.
 
 #### Œuvres littéraires et historiques. Honneurs académiques
 
