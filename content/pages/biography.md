@@ -7,7 +7,6 @@ Prosper Mérimée a laissé une grande œuvre. Dix-huit nouvelles, dont une demi
 
 #### Sa famille
 
-
 Prosper Mérimée est né le 23 septembre 1803 dans une famille d'artistes bourgeois, installée près du Panthéon. Il n’est pas baptisé et il restera fidèle, sa vie durant, aux convictions athées de ses parents. Son père, Léonor Mérimée (1757-1836), est professeur de dessin à l'Ecole polytechnique, et sera plus tard secrétaire perpétuel de l’Ecole des Beaux-Arts. Sa mère, Anne Moreau (1774-1852), dont l’aïeule fut Mme Leprince de Beaumont, l’auteur de La Belle et la Bête, est portraitiste et enseigne, elle aussi, le dessin. Le couple a un solide bagage intellectuel et artistique datant du XVIIIe siècle, mais ne s’engage guère dans les courants culturels naissants. De l’éducation parentale, Mérimée retiendra, sur les plans esthétique et affectif, l’horreur de l’emphase. C’est de sa mère qu’il tient sa devise : « Souviens-toi de te défier ». 
 La famille n’est pas aisée, mais mène une vie intéressante et calme. On reçoit de nombreux artistes, français et anglais. Parmi eux, Füssli, dont les thèmes fantastiques font écho aux goûts du jeune Mérimée pour l’irrationnel, la magie, un goût qu’il cultive par des lectures, telles que Le Traité des apparitions de Dom Calmet. A quinze ans, il maîtrise l’anglais, qu’il pratique avec les élèves de sa mère venues d’outre-Manche ; parmi elles, les sœurs Lagden, Fanny et Emma, qui tiendront sa maison pendant les dernières années de sa vie.
 Ses études au Lycée Napoléon (plus tard, Collège Henri IV) le mettent en contact avec les fils de l’élite parisienne ; entre eux, Adrien de Jussieu, Charles Lenormant et Jean-Jacques Ampère avec qui il traduit Ossian. En 1819, il s’inscrit à la faculté de droit, marchant ainsi dans les pas de son grand-père, François Mérimée, éminent avocat du Parlement de Rouen et intendant du maréchal de Broglie. Il obtient sa licence en 1823. La même année, il est exempté du service militaire, pour faiblesse de constitution. Néanmoins, il sera incorporé en 1830 à la Garde Nationale.
@@ -15,54 +14,27 @@ Jusqu’à son entrée dans la fonction publique en 1831, Mérimée n'exerce auc
 
 #### Adresses parisiennes
 
-
 La famille Mérimée déménage souvent, tout en restant d’abord dans un périmètre assez étroit de l’actuel Ve arrondissement de Paris, puis à l’Ecole de Beaux-Arts et alentour. Le fils ne quitte pas le foyer familial, et, après le décès de sa mère en 1852, il emménage dans un immeuble appartenant à son cousin Léonor Fresnel.
 
->
-> 1803 : naissance de Mérimée, au 7, Carré Sainte-Geneviève, division du Panthéon.
->
->
-> 1805 : 739, rue Saint-Dominique-l'Enfer
->
->
-> 1806 : 10, rue Saint-Dominique-l'Enfer
->
->
-> 1807 : 45, rue des Postes
->
->
-> 1808 : 12, rue des Postes
->
->
-> 1814 : 19, place de l'Estrapade
->
->
-> 1816 : 25, rue Neuve Sainte-Geneviève
->
->
-> 1820 : Ecole des Beaux-Arts, 16, rue des Petits-Augustins
->
->
-> 1836 : 20, rue des Marais-Saint-Germain
->
->
-> 1838 : 10, rue des Beaux-Arts
->
->
-> 1847 : 18, rue Jacob
->
->
-> 1852 : 52, rue de Lille
+* 1803 : naissance de Mérimée, au 7, Carré Sainte-Geneviève, division du Panthéon.
+* 1805 : 739, rue Saint-Dominique-l'Enfer
+* 1806 : 10, rue Saint-Dominique-l'Enfer
+* 1807 : 45, rue des Postes
+* 1808 : 12, rue des Postes
+* 1814 : 19, place de l'Estrapade
+* 1816 : 25, rue Neuve Sainte-Geneviève
+* 1820 : Ecole des Beaux-Arts, 16, rue des Petits-Augustins
+* 1836 : 20, rue des Marais-Saint-Germain
+* 1838 : 10, rue des Beaux-Arts
+* 1847 : 18, rue Jacob
+* 1852 : 52, rue de Lille
 
 #### Dans les salons de la Restauration
 
- 
 La vie sociale aura toujours une importance de premier plan pour Mérimée. Il commence à fréquenter l’élite parisienne dès les années 1820. Il n’a pas de nom, ni de fortune, mais dispose de nombreuses relations, par son père et ses camarades de lycée. Spirituel, détaché, de très bonne compagnie, il sera recherché. Il prend ses marques dans les milieux ouverts aux idées libérales ou acquis aux tendances artistiques nouvelles. S’il reste discret dans la manifestation de ses préférences politiques, il refuse néanmoins toute “ compromission ” avec le pouvoir sous la Restauration, allant jusqu’à décliner un poste diplomatique à Londres, en 1829 : “ accepter des fonctions quelques peu importantes qu’elles soient, sous l’Administration actuelle, serait n’être pas d’accord avec moi-même. ”  (Lettre à Mme Récamier, 25 octobre 1829).
 Il fréquente de nombreux salons : Jean-Jacques Ampère l’introduit chez Mme Récamier ; par Albert Stapfer, il accède au cercle du père de celui-ci, où il rencontre Victor Cousin ; chez le baron Gérard, le peintre, il côtoie Ingres et Delacroix ; avec son ami Henry Beyle (Stendhal), de vingt ans son aîné, on le trouve chez Emmanuel Viollet-le-Duc, le père de l’architecte, ou chez Cuvier, où il goûte la compagnie de la belle-fille de l’hôte, Sophie Duvaucel, jeune femme cultivée et spirituelle, à qui son ami Sutton Sharpe sera lié au point de parler de mariage. Mais c’est au "grenier" d’Etienne Delécluze que l’écrivain se révèle. Courier, Stendhal, Sainte-Beuve, Vitet et d’autres y élaborent ce que la postérité appellera quelquefois le « romantisme réaliste », et le jeune Mérimée y lit les premières pièces du Théâtre de Clara Gazul. Delécluze le décrit, à dix-neuf ans : 
 
-
 > Son regard furtif et pénétrant attirait d'autant plus l'attention que le jeune écrivain, au lieu d'avoir le laisser aller et cette hilarité confiante propres à son âge, aussi sobre de mouvement que de paroles, ne laissait guère pénétrer sa pensée par l'expression fréquemment ironique de son regard et de ses lèvres.
->
 
 Ce sont les plumes acérées du grenier de Delécluze, intervenant avec vigueur dans les querelles autour du classicisme, que réunit Le Globe, revue à laquelle Mérimée collabore aussi. 
 Delacroix, David d’Angers, Musset, Stendhal, les amis de Mérimée sont les initiateurs du romantisme libéral. Son amitié avec Hugo ne dure pas : il prendra une distance critique par rapport à un romantisme dont il n'apprécie pas la dimension emphatique. 
@@ -72,9 +44,7 @@ Delacroix, David d’Angers, Musset, Stendhal, les amis de Mérimée sont les in
 A sept ans, apprenant le mariage de Mlle Dubost, une élève de sa mère, Mérimée vit son premier chagrin d’amour. 
 Ses jeunes années se passent dans une intense recherche de plaisir, souvent auprès de femmes légères. Dans des lettres adressées à ses amis Stendhal ou Sutton Sharpe, il commente ses expériences, plus d’une fois faites en compagnie, celle de Musset, de Delacroix et d’autres, avec une liberté d’expression qui ne manquera pas de heurter la postérité. Lui-même résumera ainsi cette période de sa vie : 
 
->
 > Etant devenu un très grand vaurien, j'ai vécu sur mon ancienne bonne réputation… Après être redevenu très normal, je passe encore pour vaurien. En vérité, je ne crois pas l'avoir été plus de trois ans et je l'étais non de cœur, mais uniquement par tristesse, et un peu peut-être par curiosité.
->
 
 On lui connaît à cette époque deux liaisons importantes. De 1827 à 1832, il a été l’amant d’Emilie Lacoste, à qui son mari avait bien voulu passer Joseph Bonaparte, mais non pas Mérimée qu’il provoqua en duel. On a émis l’hypothèse, peu vraisemblable, que Mérimée aurait été le père de l’écrivain Emile Duranty, fils de Mme Lacoste. De 1831 à 1836, il entretient une liaison assez constante avec Céline Cayot, une actrice des Variétés, « personne très singulière, ayant de la vertu à sa façon » (Lettre à Lise Przezdziecka, 27 octobre 1866).
 Parmi les rencontres éphémères, la postérité retient son « fiasco » avec George Sand (avril 1833), qui les laissera l’un et l’autre amers.
@@ -107,18 +77,13 @@ Il publie des Notes de voyages dans le Midi de la France (1835), dans l’Ouest 
 
 #### Les commissions auxquelles appartient Mérimée
 
->
 > 10 janvier 1835 : il entre au Comité des Lettres, Philosophie, Sciences et Arts, créé à l'Instruction publique par Guizot.
->
 >
 > 1836 : nommé au Conseil des Bâtiments civils.
 >
->
 > 18 décembre 1837 : Salvandy crée le Comité historique des Arts et Monuments dont le rôle est de publier les documents inédits de l'histoire de France. Mérimée fait partie de la 4ème sous-commission "Arts et Monuments", dirigée par Gasparin, avec Victor Hugo, Ludovic Vitet, Jean-Jacques Ampère, Montalembert, Léon de Laborde, Sainte-Beuve, Charles Lenormant, Le Prévost, Taylor, Didron. Ce comité publie le Bulletin archéologique destiné à dresser l'inventaire des monuments de la France. Mérimée y présente 104 inventaires, 75 rapports, 10 instructions, 4 communications. Ce comité deviendra le Comité des Travaux historiques.
 >
->
 > 29 septembre 1837 : Montalivet, ministre de l'Intérieur, créée la Commission des Monuments historiques pour distribuer les crédits des réparations. Les présidents sont Vatout, puis Vitet. Le secrétaire est Mérimée. Il y siège jusqu'en 1870.
->
 >
 > 1848 : il siège à la Commission des Edifices diocésains.
 
@@ -127,7 +92,6 @@ Il publie des Notes de voyages dans le Midi de la France (1835), dans l’Ouest 
 Avec sa nomination au poste d’inspecteur général des Monuments historiques, une nouvelle vocation s’ouvre devant Mérimée. Désormais, ses publications littéraires s’espacent, mais ses nouvelles les plus célèbres n’en datent pas moins de cette époque : *La Vénus d'Ille* (1837), son récit le plus lu, peut-être, de nos jours ; *Colomba* (1840), sacrée par Sainte-Beuve « classique », son plus grand succès de son vivant ; *Carmen* (1845), à la nombreuse descendance. Parallèlement, il engage des recherches historiques, publie deux volumes d’Etudes sur l’histoire romaine (*Essai sur la guerre sociale*, 1841 ; *Conjuration de Catilina*, 1844), et une monumentale monographie, *Don Pèdre Ier, roi de Castille* (1847-1848). En 1846, l’écrivain se tait pour vingt ans ; il expliquera ce silence par l’éloignement de Valentine Delessert, sa maîtresse depuis 1836 : 
 
 > Ce qui m’a empêché de travailler est un motif un peu bête. Lorsque j’écrivais, c’était pour l’amour d’une belle dame. Lorsqu’elle ne s’est plus amusée de moi, je n’ai plus rien fait (Lettre à Tourgueniev, 27 janvier 1855). 
->
 
 C’est pour plaire à Valentine qu’il brigue, a-t-on suggéré, une place à l’Académie. En 1843, la mort de Fortia d’Urban libère un siège à l’Académie des Inscriptions et Belles Lettres. Mérimée hésite à se présenter, craignant de compromettre ses chances pour une future élection à l’Académie française. Mais il finit par se lancer, fait la tournée des académiciens pour obtenir des voix, et sera élu le 17 novembre 1843. Quatre mois plus tard, le 14 mars 1844, il est élu à l’Académie française. Le lendemain paraît Arsène Guillot, nouvelle qui fait crier à l’immoralité certains de ses confrères, au point qu’ils regrettent d’avoir voté pour lui. Comme il n’apprécie guère Nodier à qui il succède, dans l’éloge qu’il doit faire de lui lors de sa réception, les compliments cachent souvent des piques : « Qu’il s’agisse de lui, qu’il s’agisse des autres, qu’importe à M. Nodier, l’exactitude rigoureuse des faits. Pour lui tout est drame ou roman. » Des séances de la rédaction du Dictionnaire historique de la langue française et de la révision du Dictionnaire de l’Académie, où il s’ennuyait souvent, il nous a laissé de caricatures perspicaces. Aux jeux des élections, il se fera un devoir de se montrer aimable aux candidats, et il encouragera toujours ses amis, Vitet, Rémusat, etc., de tenter leur chance. Le 1er décembre 1848, il sera élu, en reconnaissance de ses travaux sur don Pèdre Ier, à la Real Academia de Historia de Madrid. 
 
@@ -143,7 +107,6 @@ Dans ses activités professionnelles, Mérimée croise souvent le frère de Mme 
 #### Une fidélité aveugle en amitié: l'affaire Libri
 
 > Mérimée eût été un homme de premier ordre s'il n'eût pas eu d'amis. Ses amis se l'approprièrent (Renan, *Souvenirs d’enfance et de jeunesse*). 
-
 
 Mérimée fait preuve d’une fidélité absolue, aveugle, en amitié. L’affaire Libri en est l’exemple éloquent. En 1852, Guillaume Libri (mathématicien, professeur au Collège de France, membre de l'Académie des Sciences, inspecteur général de l'Instruction publique et des Bibliothèques) est accusé d’avoir volé des livres dans les bibliothèques qu'il est chargé d'inspecter. Un rapport de 1848, retrouvé dans le bureau de Guizot en 1850, est à l’origine de l’affaire. Libri a fui à Londres. Il sera condamné par contumace à dix ans de réclusion. En dépit de l’évidence de la culpabilité de son ami, Mérimée prend sa défense avec vigueur. A la suite d'un article qu’il publie dans la Revue des Deux Mondes, le 15 avril 1852, il est condamné pour outrage à la magistrature à quinze jours de prison et 1000 francs d'amende. La femme de Libri, que Mérimée a connue dans sa jeunesse, n’a certainement pas été étrangère à cet engagement irraisonné.
 Son emprisonnement à la conciergerie laisse de bons souvenirs à Mérimée. Il partage sa réclusion avec son ami Edouard. Bocher. « Je ne me suis pas ennuyé en prison. C’est un endroit très frais et excellent dans les grandes chaleurs. J’y ai passé quinze jours à travailler et sans un moment d’ennui ”(A Joly-Leterme, juillet 1852). M. Bocher et moi nous recevons tant de visites que nous avons bonne envie de demander qu’on nous mette au secret ” (Au chancelier Pasquier, 15 juillet 1852). La prison ne calme pas son ardeur à défendre Libri. Sénateur, il interviendra en assemblée plénière pour plaider la cause de la pétition présentée par la femme de son ami.
@@ -170,7 +133,7 @@ Il poursuit son voyage par Delphes, Syra, Constantinople, Smyrne – à Saulcy :
 
 Mérimée aurait souhaité visiter l’Algérie, il a même commencé à apprendre l'arabe. Ce projet, conçu en 1841, a été de plusieurs fois reconduit ou annulé, se heurtant au refus catégorique du ministère de la Guerre. Quand Jenny Dacquin part pour l’Algérie pour rendre visite à son frère qui y est en garnison, Mérimée la presse de lui noter mille détails.
 
-#### 1848 : l’ancien libéral forme des souhaits d’ordre 
+#### 1848 : l’ancien libéral forme des souhaits d’ordre
 
 Février 1848 provoque chez Mérimée un étonnement consterné : 
 
@@ -187,7 +150,6 @@ Le 30 janvier 1853, Napoléon III épouse Eugénie de Montijo. Mérimée, qui ai
 Méfiant à l’égard de Louis-Napoléon Bonaparte, il gardera une certaine réserve envers Napoléon III, dont la simplicité dans les rapports personnels finira pourtant par gagner sa sympathie. Lorsque l’Empereur entreprend son Histoire de Jules César, Mérimée fait des recherches pour lui, rédige des notes, des rapports. Toutefois, la publication de l’ouvrage en 1865 lui inspire des méchancetés qu’il retient d’exprimer par égard pour:
 
 > \[...] des gens que je respecte peu, mais que je ne peux m'empêcher d’aimer (Lettre à Victor Cousin, 13 août 1865).
-
 
 Il est assidu à la cour qu’il suit dans ses déplacements, à Compiègne, Saint-Cloud, Fontainebleau, Biarritz. Mais ce mode de vie lui pèse : dîners trop copieux, couchers tardifs, vêtements étriqués, longues promenades qui l’exposent à l’humidité et au froid que sa santé chancelante supporte de plus en plus mal. Sans se faire d’illusions sur la médiocrité intellectuelle de la cour, il met tout en œuvre pour organiser les divertissements de l’Impératrice, tout en se plaignant de cette « vie agitée d’un impresario » qu’il doit mener (Lettre Jenny Dacquin, 16 novembre 1863). Vers la fin de sa vie, il sera le secrétaire, entouré de jolies jeunes femmes, d’une « Cour d’amour ».
 Il se fait le chroniqueur désabusé des événements de la vie de la cour. Dans une lettre à Mme de La Rochejaquelein (1er juin 1858), il rend compte de la visite de la reine de Hollande : 
@@ -219,7 +181,7 @@ Mérimée amuse la Princesse comme il amuse l’Impératrice, mais elle ne se fa
 
 > Il n’a jamais aimé ma famille. Il marche sur mes œufs, mais quand il est dans les escaliers, il doit les casser.
 
-#### Cannes : les hivers, la mort 
+#### Cannes : les hivers, la mort
 
 A partir de 1856, Mérimée passe ses hivers sur la côte d’Azur ; à Nice, puis à Cannes, séjour recommandé par ses médecins pour tenter d’alléger ses difficultés respiratoires, symptômes d’asthme ou d’emphysème. A Tourgueniev, le 28 février 1867 : 
 
@@ -230,7 +192,6 @@ Dans la mesure, de plus en plus limitée, où la maladie le lui permet, il conti
 Sa maladie s’aggrave : bronchites réitérées, étouffements permanents. Le 19 juillet 1870, la France déclare la guerre à la Prusse. Le 23, l’Impératrice est nommée régente. Les 18 et le 20 août, malgré ses souffrances, il se rend chez Thiers dont il tente, sans succès, de rapprocher les vues de celles de l’Impératrice. Il arrive à Cannes, épuisé, le 11 septembre. Le 13, il écrit à Mme de Beaulaincourt : 
 
 > J’ai toute ma vie cherché à être citoyen du monde avant d’être Français, mais ces manteaux philosophiques ne servent à rien. Je saigne aujourd’hui des blessures de ces imbéciles de Français, je pleurs de leurs humiliations, et, quelque ingrats et absurdes qu’ils soient, je les aime toujours. 
-
 
 Il meurt le 23 septembre. Béni par un pasteur protestant, il est inhumé au cimetière anglais de Cannes. Fanny Lagden partagera sa tombe. Paris apprend sa mort par un article du *Times*. 
 
