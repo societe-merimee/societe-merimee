@@ -2,6 +2,14 @@
   "entries": [
     {
       "title1": "Correspondance générale",
+      "title2": "Tomes VII à XVII",
+      "scientificEditor": "M. Parturier",
+      "location": "Toulouse",
+      "editor": "Privat",
+      "date": "1953-1964"
+    },
+    {
+      "title1": "Correspondance générale",
       "scientificEditor": "M. Parturier",
       "title2": "Tomes I à VI",
       "location": "Paris",
