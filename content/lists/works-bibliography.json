@@ -1,6 +1,13 @@
 {
   "entries": [
     {
+      "title1": "Etudes de littérature russe",
+      "scientificEditor": "H. Mongault",
+      "location": "Paris",
+      "editor": "Champion",
+      "date": "1932"
+    },
+    {
       "title1": "Etudes anglo-américaines",
       "scientificEditor": "G. Connes",
       "location": "Paris",
