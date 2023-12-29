@@ -52,7 +52,7 @@
       "author": "SEDDAOUI Fatima",
       "title1": "« Une exploration transmédiatique de la Nature : Mateo Falcone, film d’Éric Vuillard, BD de Frédéric Bertocchini »",
       "title2": "H. B. Revue internationale d’Études stendhaliennes, nº 24",
-      "location": "Paris",
+      "location": "",
       "editor": "Euredit",
       "date": "2020"
     },
@@ -60,7 +60,7 @@
       "author": "RÉQUÉNA Clarisse",
       "title1": "« Les Pyrénées envoûtantes de Prosper Mérimée, reportage diffusé le 1er juin 2020 dans l’émission “Invitation au voyage” sur Arte »",
       "title2": " H. B. Revue internationale d’Études stendhaliennes, nº 24",
-      "location": "Paris",
+      "location": "",
       "editor": "Euredit",
       "date": "2020"
     },
@@ -68,7 +68,7 @@
       "author": "ARROUS Michel",
       "title1": "C. R. des Cahiers Mérimée, nº 12",
       "title2": " H. B. Revue internationale d’Études stendhaliennes, nº 24",
-      "location": "Paris",
+      "location": "",
       "editor": "Euredit",
       "date": "2020"
     },
@@ -76,7 +76,7 @@
       "author": "ARROUS Michel et RÉQUÉNA Clarisse",
       "title1": "« La tombe de Mérimée entre dans l’histoire »",
       "title2": "H. B. Revue internationale d’Études stendhaliennes, nº 23.",
-      "location": "Paris",
+      "location": "",
       "editor": "Euredit",
       "date": "2019"
     },
@@ -84,8 +84,8 @@
       "author": "ARROUS Michel",
       "title1": "C. R. de Prosper Mérimée, Mateo Falcone et autres nouvelles, éd. A. Fonyi, GF Flammarion",
       "title2": "H. B. Revue internationale d’Études stendhaliennes, nº 23",
-      "location": "Paris",
-      "editor": "Eurédit",
+      "location": "",
+      "editor": "Euredit",
       "date": "2019"
     },
     {
@@ -93,27 +93,27 @@
       "title1": "« Carmen : un opéra nomade »",
       "title2": "H. B. Revue internationale d’Études stendhaliennes, nº 22, 2018",
       "date": "2018",
-      "location": "Paris",
+      "location": "",
       "editor": "Euredit"
     },
     {
       "author": "AUTIN Jean",
       "title1": "P. Mérimée, écrivain, archéologue, homme politique",
-      "location": "Paris",
+      "location": "",
       "editor": "Librairie académique Perrin",
       "date": "1983"
     },
     {
       "author": "ARBELET Paul",
       "title1": "Deux vauriens, Mérimée et Sutton Sharpe ",
-      "location": "Paris",
+      "location": "",
       "editor": "Giraud-Badin",
       "date": "1932"
     },
     {
       "author": "ARBELET Paul",
       "title1": "Trois solitaires (Courier, Stendhal, Mérimée)",
-      "location": "Paris",
+      "location": "",
       "editor": "Gallimard",
       "date": "1934"
     },
@@ -150,7 +150,7 @@
     {
       "author": "PAGEAUX Daniel-Henri",
       "title1": "Esquisses parisiennes : lectures de Mérimée",
-      "location": "Paris",
+      "location": "",
       "editor": "L'Harmattan",
       "date": "2021"
     }
