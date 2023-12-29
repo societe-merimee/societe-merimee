@@ -1,6 +1,14 @@
 {
   "entries": [
     {
+      "title1": "Correspondance générale",
+      "scientificEditor": "M. Parturier",
+      "title2": "Tomes I à VI",
+      "location": "Paris",
+      "editor": "Le Divan",
+      "date": "1941-1947"
+    },
+    {
       "title1": "Histoire de don Pèdre Ier, roi de Castille",
       "scientificEditor": "G. Laplane",
       "location": "Paris",
