@@ -2,4 +2,4 @@ La Société Mérimée, fondée en 2004 par Antonia Fonyi, vise à faire connaî
 
 La Société Mérimée publie une revue annuelle, les *Cahiers Mérimée* ; elle se réunit quatre fois par an, à la Sorbonne, dans le cadre d'un séminaire de recherche pluridisciplinaire ; elle organise ponctuellement des colloques et journées d'étude consacrés à Mérimée dont vous trouverez les annonces ici.
 
-La Société et le séminaire Mérimée sont ouverts à toutes et tous, curieux et savants.
+La Sociiété et le séminaire Mérimée sont ouverts à toutes et tous, curieux et savants.
