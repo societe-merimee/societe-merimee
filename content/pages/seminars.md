@@ -2,4 +2,4 @@ Dans le cadre de l’École doctorale de Littérature française et comparée de
 \
 Le séminaire se tient en hybride, à la Sorbonne (17, rue de la Sorbonne), salle Max Milner, et par des liens qui seront communiqués avant chaque séance.\
 \
-Contact : Antonia FONYI, 139, rue du Faubourg Saint-Antoine, 75011 Paris, 06 80 28 90 18, [antonia.fonyi@wanadoo.fr](mailto:fonyi@wanadoo.fr)
+Contact : Antonia FONYI, 17, boulevard Saint-Germain, 75005 Paris, 06 80 28 90 18, [antonia.fonyi@wanadoo.fr](mailto:fonyi@wanadoo.fr)
